@@ -1,0 +1,17 @@
+{
+  "id": "jahyee/nemotron-kienngx-recipe-repack",
+  "title": "Nemotron Kienngx-recipe Repack",
+  "code_file": "nemotron-kienngx-recipe-repack.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "kernel_sources": [
+    "jahyee/nemotron-kienngx-recipe-sft-on-oracle-9056"
+  ],
+  "competition_sources": [
+    "nvidia-nemotron-model-reasoning-challenge"
+  ]
+}

@@ -5,9 +5,15 @@
 ## Inclusion rule
 
 The release retains root documentation, dependency information, first-party
-scripts, and scalar audit JSON whose reviewed structure contains no
+scripts, source-only Kaggle recipes, two zero-output notebooks, and scalar
+audit JSON whose reviewed structure contains no
 record-level competition content. The retained report files describe model or
 adapter structure only.
+
+The recipe batch is a method/provenance release: it includes source and
+dependency references, but no downloaded dependencies or execution products.
+`recipes/README.md` identifies the included files and the intentionally
+omitted generated bundle.
 
 ## Exclusion rule
 

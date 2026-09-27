@@ -52,3 +52,7 @@ reports/*trace*.csv
 reports/*eval*.csv
 reports/*records*.json
 *.jsonl
+
+# Kaggle kernel sources released under recipes/ and notebook-recipes/ are
+# intentionally versioned. Interactive copies and all execution outputs stay
+# in ignored local folders above.

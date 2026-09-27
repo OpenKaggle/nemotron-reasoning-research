@@ -1,0 +1,36 @@
+{
+  "id": "jahyee/nemotron-trace-logprob-audit",
+  "title": "Nemotron Trace Logprob Audit",
+  "code_file": "nemotron-trace-logprob-audit.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "gpu",
+    "audit",
+    "logprob"
+  ],
+  "dataset_sources": [
+    "jahyee/nemotron-oracle-reasoning-traces",
+    "kienngx/nemotron-30b-competition-trainingdata-cot-labels",
+    "jahyee/nemotron-solver-cot-augmentation",
+    "leevvin/nemotron-bitmanip-traces-pub",
+    "sybyrr/nemotron-symbolic-beta-trace",
+    "gdataranger/huikang-nemotron-nemo-sft-r32",
+    "mayukh18/nemotron-packages",
+    "llkh0a/rtx-wheels"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "nvidia-nemotron-model-reasoning-challenge"
+  ],
+  "model_sources": [
+    "metric/nemotron-3-nano-30b-a3b-bf16/Transformers/default/1",
+    "kienngx/nemotron-nano-30b-trained/Triton/tinker-adapter/1"
+  ],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:00377cd1b3d470a605bc5b0ceca79969e369644e9b36802242a1c70e627372f9",
+  "machine_shape": "NvidiaRtxPro6000"
+}

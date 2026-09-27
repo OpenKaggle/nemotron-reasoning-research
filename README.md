@@ -13,6 +13,9 @@ artifacts.
 - scalar model and adapter audit outputs with no competition rows, prompts,
   answers, predictions, or trace text;
 - an aggregate-only historical evaluation summary.
+- nine first-party Kaggle recipe scripts and two zero-output notebook sources,
+  released with dependency metadata under
+  [`recipes/`](recipes/README.md).
 
 ## What is deliberately absent
 
@@ -34,6 +37,8 @@ competition inputs only from the official source after accepting the applicable
 rules. [ARTIFACTS.md](ARTIFACTS.md) distinguishes reconstructible sources from
 artifacts that need a separately authorized archive. The public release gate
 and its history-cleanup receipt are in [RELEASE_MANIFEST.md](RELEASE_MANIFEST.md).
+The recipe-specific boundary and a source-to-Kaggle provenance map are in
+[`recipes/README.md`](recipes/README.md).
 
 ## Licensing and evidence
 

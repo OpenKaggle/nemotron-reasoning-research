@@ -1,0 +1,22 @@
+{
+  "id": "jahyee/nemotron-oracle-sft-r32-repack",
+  "title": "Nemotron Oracle SFT R32 Repack",
+  "code_file": "nemotron-oracle-sft-r32-repack.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [
+    "jahyee/nemotron-oracle-sft-r32"
+  ],
+  "competition_sources": [
+    "nvidia-nemotron-model-reasoning-challenge"
+  ],
+  "model_sources": [
+    "kienngx/nemotron-nano-30b-trained/Triton/tinker-adapter/1"
+  ]
+}
