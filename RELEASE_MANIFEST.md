@@ -19,9 +19,14 @@ omitted generated bundle.
 
 The release excludes all organizer data; literal prompts; IDs; answers;
 predictions; generated completions; token/context traces; handoff copies;
-checkpoints; adapters; submissions; external notebook copies; caches; and local
-paths. The ignore rules encode the main generated-output families so they cannot
-be recommitted accidentally.
+external notebook copies; copied upstream checkpoints/adapters/submissions;
+caches; and local paths. The ignore rules encode the main generated-output
+families so they cannot be recommitted accidentally.
+
+This source-only repository still does not track model binaries. Eligible
+first-party checkpoints, adapters, compiled model artifacts and submission
+bundles are published separately with source revision, provenance and checksum
+records in the linked artifact dataset described by `ARTIFACTS.md`.
 
 ## History cleanup
 
