@@ -1,0 +1,261 @@
+{
+  "config": {
+    "diagnostic_only": true,
+    "reset_weights": false,
+    "in_proj_only": false,
+    "moe_tie_weights": false,
+    "num_steps": 160,
+    "batch_size": 32,
+    "micro_batch_size": 4,
+    "learning_rate": 5e-05
+  },
+  "adapter_source": "/kaggle/input/models/kienngx/nemotron-nano-30b-trained/triton/tinker-adapter/1",
+  "loaded": 12010,
+  "source_tensors": 12010,
+  "unique_model_targets": 12010,
+  "missing_keys": [],
+  "category_load_compare": {
+    "down_proj.lora_A": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000006971151933,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999995231628418,
+      "max_cos": 1.0000020265579224
+    },
+    "down_proj.lora_B": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000005053437275,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999990463256836,
+      "max_cos": 1.0000014305114746
+    },
+    "experts.down_proj.lora_A": {
+      "count": 2944,
+      "matched": 2944,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000003178239516,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999983310699463,
+      "max_cos": 1.0000017881393433
+    },
+    "experts.down_proj.lora_B": {
+      "count": 2944,
+      "matched": 2944,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000004094579946,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999992847442627,
+      "max_cos": 1.0000014305114746
+    },
+    "experts.up_proj.lora_A": {
+      "count": 2944,
+      "matched": 2944,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000003679938938,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999995827674866,
+      "max_cos": 1.0000014305114746
+    },
+    "experts.up_proj.lora_B": {
+      "count": 2944,
+      "matched": 2944,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000002894793516,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999980926513672,
+      "max_cos": 1.0000019073486328
+    },
+    "in_proj.lora_A": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000009640403416,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999995231628418,
+      "max_cos": 1.000002384185791
+    },
+    "in_proj.lora_B": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000055561894956,
+      "mean_abs_delta": 0.0,
+      "min_cos": 1.0000032186508179,
+      "max_cos": 1.0000076293945312
+    },
+    "k_proj.lora_A": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000002980232239,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999995827674866,
+      "max_cos": 1.0000009536743164
+    },
+    "k_proj.lora_B": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9999999900658926,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999998211860657,
+      "max_cos": 1.000000238418579
+    },
+    "lm_head.lora_A": {
+      "count": 1,
+      "matched": 1,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.000001072883606,
+      "mean_abs_delta": 0.0,
+      "min_cos": 1.000001072883606,
+      "max_cos": 1.000001072883606
+    },
+    "lm_head.lora_B": {
+      "count": 1,
+      "matched": 1,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000107288360596,
+      "mean_abs_delta": 0.0,
+      "min_cos": 1.0000107288360596,
+      "max_cos": 1.0000107288360596
+    },
+    "o_proj.lora_A": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000007549921672,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999996423721313,
+      "max_cos": 1.0000022649765015
+    },
+    "o_proj.lora_B": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.000000685453415,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999998211860657,
+      "max_cos": 1.0000016689300537
+    },
+    "out_proj.lora_A": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000008318735205,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999995827674866,
+      "max_cos": 1.0000025033950806
+    },
+    "out_proj.lora_B": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.000000414641007,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999996423721313,
+      "max_cos": 1.0000014305114746
+    },
+    "q_proj.lora_A": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000003178914387,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.999999463558197,
+      "max_cos": 1.0000009536743164
+    },
+    "q_proj.lora_B": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000009040037792,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999998211860657,
+      "max_cos": 1.0000015497207642
+    },
+    "up_proj.lora_A": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.000000183996947,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999993443489075,
+      "max_cos": 1.0000017881393433
+    },
+    "up_proj.lora_B": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000007852264072,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999995827674866,
+      "max_cos": 1.0000016689300537
+    },
+    "v_proj.lora_A": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000005960464478,
+      "mean_abs_delta": 0.0,
+      "min_cos": 1.0000001192092896,
+      "max_cos": 1.000001311302185
+    },
+    "v_proj.lora_B": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000000993410747,
+      "mean_abs_delta": 0.0,
+      "min_cos": 0.9999998211860657,
+      "max_cos": 1.0000004768371582
+    }
+  },
+  "loaded_moe_lora_stats": {
+    "experts.down_proj.lora_A": {
+      "params": 2944,
+      "mean_abs": 0.002794129871171722,
+      "slice_mean_abs_std": 0.0
+    },
+    "experts.down_proj.lora_B": {
+      "params": 2944,
+      "mean_abs": 0.00239943766095878,
+      "slice_mean_abs_std": 0.0
+    },
+    "experts.up_proj.lora_A": {
+      "params": 2944,
+      "mean_abs": 0.010820112839017225,
+      "slice_mean_abs_std": 0.0
+    },
+    "experts.up_proj.lora_B": {
+      "params": 2944,
+      "mean_abs": 0.0020894655310292405,
+      "slice_mean_abs_std": 0.0
+    }
+  }
+}

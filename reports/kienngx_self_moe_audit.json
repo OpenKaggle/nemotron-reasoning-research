@@ -1,0 +1,236 @@
+{
+  "candidate": {
+    "config": {
+      "base_model_name_or_path": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+      "r": 32,
+      "lora_alpha": 32,
+      "target_modules": [
+        "down_proj",
+        "in_proj",
+        "k_proj",
+        "lm_head",
+        "o_proj",
+        "out_proj",
+        "q_proj",
+        "up_proj",
+        "v_proj"
+      ],
+      "has_target_parameters": false,
+      "rank_pattern": {
+        "in_proj": 32
+      },
+      "alpha_pattern": {
+        "in_proj": 32
+      }
+    },
+    "num_tensors": 12010,
+    "categories": {
+      "down_proj.lora_A": 23,
+      "down_proj.lora_B": 23,
+      "experts.down_proj.lora_A": 2944,
+      "experts.down_proj.lora_B": 2944,
+      "experts.up_proj.lora_A": 2944,
+      "experts.up_proj.lora_B": 2944,
+      "in_proj.lora_A": 23,
+      "in_proj.lora_B": 23,
+      "k_proj.lora_A": 6,
+      "k_proj.lora_B": 6,
+      "lm_head.lora_A": 1,
+      "lm_head.lora_B": 1,
+      "o_proj.lora_A": 6,
+      "o_proj.lora_B": 6,
+      "out_proj.lora_A": 23,
+      "out_proj.lora_B": 23,
+      "q_proj.lora_A": 6,
+      "q_proj.lora_B": 6,
+      "up_proj.lora_A": 23,
+      "up_proj.lora_B": 23,
+      "v_proj.lora_A": 6,
+      "v_proj.lora_B": 6
+    },
+    "top_shapes": [
+      [
+        "(32, 2688)",
+        3009
+      ],
+      [
+        "(2688, 32)",
+        2996
+      ],
+      [
+        "(32, 1856)",
+        2944
+      ],
+      [
+        "(1856, 32)",
+        2944
+      ],
+      [
+        "(32, 4096)",
+        29
+      ],
+      [
+        "(10304, 32)",
+        23
+      ],
+      [
+        "(32, 3712)",
+        23
+      ],
+      [
+        "(3712, 32)",
+        23
+      ],
+      [
+        "(256, 32)",
+        12
+      ],
+      [
+        "(4096, 32)",
+        6
+      ],
+      [
+        "(131072, 32)",
+        1
+      ]
+    ]
+  },
+  "reference": {
+    "config": {
+      "base_model_name_or_path": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+      "r": 32,
+      "lora_alpha": 32,
+      "target_modules": [
+        "down_proj",
+        "in_proj",
+        "k_proj",
+        "lm_head",
+        "o_proj",
+        "out_proj",
+        "q_proj",
+        "up_proj",
+        "v_proj"
+      ],
+      "has_target_parameters": false,
+      "rank_pattern": {
+        "in_proj": 32
+      },
+      "alpha_pattern": {
+        "in_proj": 32
+      }
+    },
+    "num_tensors": 12010,
+    "categories": {
+      "down_proj.lora_A": 23,
+      "down_proj.lora_B": 23,
+      "experts.down_proj.lora_A": 2944,
+      "experts.down_proj.lora_B": 2944,
+      "experts.up_proj.lora_A": 2944,
+      "experts.up_proj.lora_B": 2944,
+      "in_proj.lora_A": 23,
+      "in_proj.lora_B": 23,
+      "k_proj.lora_A": 6,
+      "k_proj.lora_B": 6,
+      "lm_head.lora_A": 1,
+      "lm_head.lora_B": 1,
+      "o_proj.lora_A": 6,
+      "o_proj.lora_B": 6,
+      "out_proj.lora_A": 23,
+      "out_proj.lora_B": 23,
+      "q_proj.lora_A": 6,
+      "q_proj.lora_B": 6,
+      "up_proj.lora_A": 23,
+      "up_proj.lora_B": 23,
+      "v_proj.lora_A": 6,
+      "v_proj.lora_B": 6
+    },
+    "top_shapes": [
+      [
+        "(32, 2688)",
+        3009
+      ],
+      [
+        "(2688, 32)",
+        2996
+      ],
+      [
+        "(32, 1856)",
+        2944
+      ],
+      [
+        "(1856, 32)",
+        2944
+      ],
+      [
+        "(32, 4096)",
+        29
+      ],
+      [
+        "(10304, 32)",
+        23
+      ],
+      [
+        "(32, 3712)",
+        23
+      ],
+      [
+        "(3712, 32)",
+        23
+      ],
+      [
+        "(256, 32)",
+        12
+      ],
+      [
+        "(4096, 32)",
+        6
+      ],
+      [
+        "(131072, 32)",
+        1
+      ]
+    ]
+  },
+  "comparison": {
+    "experts.down_proj.lora_A": {
+      "count": 2944,
+      "matched": 2944,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000008827318316,
+      "min_cos": 0.9999976754188538,
+      "max_cos": 1.0000039339065552,
+      "mean_abs_delta": 0.0
+    },
+    "experts.down_proj.lora_B": {
+      "count": 2944,
+      "matched": 2944,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000011324882507,
+      "min_cos": 0.9999995231628418,
+      "max_cos": 1.0000030994415283,
+      "mean_abs_delta": 0.0
+    },
+    "experts.up_proj.lora_A": {
+      "count": 2944,
+      "matched": 2944,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000012205994648,
+      "min_cos": 0.9999994039535522,
+      "max_cos": 1.000003457069397,
+      "mean_abs_delta": 0.0
+    },
+    "experts.up_proj.lora_B": {
+      "count": 2944,
+      "matched": 2944,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.000000856330861,
+      "min_cos": 0.9999980330467224,
+      "max_cos": 1.0000042915344238,
+      "mean_abs_delta": 0.0
+    }
+  }
+}

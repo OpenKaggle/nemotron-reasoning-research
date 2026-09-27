@@ -1,0 +1,416 @@
+{
+  "candidate": {
+    "config": {
+      "base_model_name_or_path": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+      "r": 32,
+      "lora_alpha": 32,
+      "target_modules": [
+        "down_proj",
+        "in_proj",
+        "k_proj",
+        "lm_head",
+        "o_proj",
+        "out_proj",
+        "q_proj",
+        "up_proj",
+        "v_proj"
+      ],
+      "has_target_parameters": false,
+      "rank_pattern": {
+        "in_proj": 32
+      },
+      "alpha_pattern": {
+        "in_proj": 32
+      }
+    },
+    "num_tensors": 12010,
+    "categories": {
+      "down_proj.lora_A": 23,
+      "down_proj.lora_B": 23,
+      "experts.down_proj.lora_A": 2944,
+      "experts.down_proj.lora_B": 2944,
+      "experts.up_proj.lora_A": 2944,
+      "experts.up_proj.lora_B": 2944,
+      "in_proj.lora_A": 23,
+      "in_proj.lora_B": 23,
+      "k_proj.lora_A": 6,
+      "k_proj.lora_B": 6,
+      "lm_head.lora_A": 1,
+      "lm_head.lora_B": 1,
+      "o_proj.lora_A": 6,
+      "o_proj.lora_B": 6,
+      "out_proj.lora_A": 23,
+      "out_proj.lora_B": 23,
+      "q_proj.lora_A": 6,
+      "q_proj.lora_B": 6,
+      "up_proj.lora_A": 23,
+      "up_proj.lora_B": 23,
+      "v_proj.lora_A": 6,
+      "v_proj.lora_B": 6
+    },
+    "top_shapes": [
+      [
+        "(32, 2688)",
+        3009
+      ],
+      [
+        "(2688, 32)",
+        2996
+      ],
+      [
+        "(32, 1856)",
+        2944
+      ],
+      [
+        "(1856, 32)",
+        2944
+      ],
+      [
+        "(32, 4096)",
+        29
+      ],
+      [
+        "(10304, 32)",
+        23
+      ],
+      [
+        "(32, 3712)",
+        23
+      ],
+      [
+        "(3712, 32)",
+        23
+      ],
+      [
+        "(256, 32)",
+        12
+      ],
+      [
+        "(4096, 32)",
+        6
+      ],
+      [
+        "(131072, 32)",
+        1
+      ]
+    ]
+  },
+  "reference": {
+    "config": {
+      "base_model_name_or_path": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+      "r": 32,
+      "lora_alpha": 32,
+      "target_modules": [
+        "down_proj",
+        "in_proj",
+        "k_proj",
+        "lm_head",
+        "o_proj",
+        "out_proj",
+        "q_proj",
+        "up_proj",
+        "v_proj"
+      ],
+      "has_target_parameters": false,
+      "rank_pattern": {
+        "in_proj": 32
+      },
+      "alpha_pattern": {
+        "in_proj": 32
+      }
+    },
+    "num_tensors": 12010,
+    "categories": {
+      "down_proj.lora_A": 23,
+      "down_proj.lora_B": 23,
+      "experts.down_proj.lora_A": 2944,
+      "experts.down_proj.lora_B": 2944,
+      "experts.up_proj.lora_A": 2944,
+      "experts.up_proj.lora_B": 2944,
+      "in_proj.lora_A": 23,
+      "in_proj.lora_B": 23,
+      "k_proj.lora_A": 6,
+      "k_proj.lora_B": 6,
+      "lm_head.lora_A": 1,
+      "lm_head.lora_B": 1,
+      "o_proj.lora_A": 6,
+      "o_proj.lora_B": 6,
+      "out_proj.lora_A": 23,
+      "out_proj.lora_B": 23,
+      "q_proj.lora_A": 6,
+      "q_proj.lora_B": 6,
+      "up_proj.lora_A": 23,
+      "up_proj.lora_B": 23,
+      "v_proj.lora_A": 6,
+      "v_proj.lora_B": 6
+    },
+    "top_shapes": [
+      [
+        "(32, 2688)",
+        3009
+      ],
+      [
+        "(2688, 32)",
+        2996
+      ],
+      [
+        "(32, 1856)",
+        2944
+      ],
+      [
+        "(1856, 32)",
+        2944
+      ],
+      [
+        "(32, 4096)",
+        29
+      ],
+      [
+        "(10304, 32)",
+        23
+      ],
+      [
+        "(32, 3712)",
+        23
+      ],
+      [
+        "(3712, 32)",
+        23
+      ],
+      [
+        "(256, 32)",
+        12
+      ],
+      [
+        "(4096, 32)",
+        6
+      ],
+      [
+        "(131072, 32)",
+        1
+      ]
+    ]
+  },
+  "comparison": {
+    "down_proj.lora_A": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9978682657946711,
+      "min_cos": 0.9963827133178711,
+      "max_cos": 0.9987019896507263,
+      "mean_abs_delta": 0.0005164762273046148
+    },
+    "down_proj.lora_B": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9591495576112167,
+      "min_cos": 0.8999727964401245,
+      "max_cos": 0.9682270288467407,
+      "mean_abs_delta": 0.0006349870236590505
+    },
+    "experts.down_proj.lora_A": {
+      "count": 2944,
+      "matched": 2944,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000008827318316,
+      "min_cos": 0.9999976754188538,
+      "max_cos": 1.0000039339065552,
+      "mean_abs_delta": 0.0
+    },
+    "experts.down_proj.lora_B": {
+      "count": 2944,
+      "matched": 2944,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000011324882507,
+      "min_cos": 0.9999995231628418,
+      "max_cos": 1.0000030994415283,
+      "mean_abs_delta": 0.0
+    },
+    "experts.up_proj.lora_A": {
+      "count": 2944,
+      "matched": 2944,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000012205994648,
+      "min_cos": 0.9999994039535522,
+      "max_cos": 1.000003457069397,
+      "mean_abs_delta": 0.0
+    },
+    "experts.up_proj.lora_B": {
+      "count": 2944,
+      "matched": 2944,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.000000856330861,
+      "min_cos": 0.9999980330467224,
+      "max_cos": 1.0000042915344238,
+      "mean_abs_delta": 0.0
+    },
+    "in_proj.lora_A": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9930383744447128,
+      "min_cos": 0.9872718453407288,
+      "max_cos": 0.9960859417915344,
+      "mean_abs_delta": 0.0007092567849094453
+    },
+    "in_proj.lora_B": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9782727464385654,
+      "min_cos": 0.9706965088844299,
+      "max_cos": 0.9853647947311401,
+      "mean_abs_delta": 0.0006427638986876801
+    },
+    "k_proj.lora_A": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.998090793689092,
+      "min_cos": 0.9975570440292358,
+      "max_cos": 0.9986038208007812,
+      "mean_abs_delta": 0.0005895116967925181
+    },
+    "k_proj.lora_B": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9686479469140371,
+      "min_cos": 0.9658010005950928,
+      "max_cos": 0.9750296473503113,
+      "mean_abs_delta": 0.0006002507094914714
+    },
+    "lm_head.lora_A": {
+      "count": 1,
+      "matched": 1,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.996321976184845,
+      "min_cos": 0.996321976184845,
+      "max_cos": 0.996321976184845,
+      "mean_abs_delta": 0.0009776337537914515
+    },
+    "lm_head.lora_B": {
+      "count": 1,
+      "matched": 1,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9931830763816833,
+      "min_cos": 0.9931830763816833,
+      "max_cos": 0.9931830763816833,
+      "mean_abs_delta": 0.0005488313036039472
+    },
+    "o_proj.lora_A": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9966809650262197,
+      "min_cos": 0.9947832822799683,
+      "max_cos": 0.997990608215332,
+      "mean_abs_delta": 0.0006290224749439707
+    },
+    "o_proj.lora_B": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.96059982975324,
+      "min_cos": 0.9537965655326843,
+      "max_cos": 0.9694349765777588,
+      "mean_abs_delta": 0.000620576572449257
+    },
+    "out_proj.lora_A": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.0000025811402693,
+      "min_cos": 1.0000001192092896,
+      "max_cos": 1.0000056028366089,
+      "mean_abs_delta": 0.0
+    },
+    "out_proj.lora_B": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 1.000001116939213,
+      "min_cos": 0.9999992847442627,
+      "max_cos": 1.0000029802322388,
+      "mean_abs_delta": 0.0
+    },
+    "q_proj.lora_A": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9981459577878317,
+      "min_cos": 0.9972555637359619,
+      "max_cos": 0.998615026473999,
+      "mean_abs_delta": 0.0005911863311969986
+    },
+    "q_proj.lora_B": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9674153923988342,
+      "min_cos": 0.9636679887771606,
+      "max_cos": 0.9703489542007446,
+      "mean_abs_delta": 0.0005831414891872555
+    },
+    "up_proj.lora_A": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9981483350629392,
+      "min_cos": 0.9966347217559814,
+      "max_cos": 0.9986047744750977,
+      "mean_abs_delta": 0.0006040606784391339
+    },
+    "up_proj.lora_B": {
+      "count": 23,
+      "matched": 23,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9726048319236092,
+      "min_cos": 0.9663209915161133,
+      "max_cos": 0.9766178131103516,
+      "mean_abs_delta": 0.0005584221330734537
+    },
+    "v_proj.lora_A": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9978549579779307,
+      "min_cos": 0.9965946674346924,
+      "max_cos": 0.9983817934989929,
+      "mean_abs_delta": 0.0006229520270911356
+    },
+    "v_proj.lora_B": {
+      "count": 6,
+      "matched": 6,
+      "missing": 0,
+      "shape_mismatch": 0,
+      "mean_cos": 0.9584341843922933,
+      "min_cos": 0.9521539211273193,
+      "max_cos": 0.9630857706069946,
+      "mean_abs_delta": 0.000615546538028866
+    }
+  }
+}

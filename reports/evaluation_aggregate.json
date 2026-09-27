@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "scope": "aggregate-only historical evaluation receipt",
+  "record_level_material_removed": true,
+  "records_previously_present": 9500,
+  "prompt_sample_counts_by_family": {
+    "bit_manipulation": 5,
+    "gravity_physics": 5,
+    "numeral_system": 5,
+    "symbolic_equation": 5,
+    "text_cipher": 5,
+    "unit_conversion": 5
+  },
+  "prompt_examples_omitted": 30,
+  "overall": {
+    "total": 9500,
+    "correct": 8364,
+    "accuracy": 0.880421052631579
+  },
+  "by_family": {
+    "bit_manipulation": {"total": 1602, "correct": 1440, "accuracy": 0.898876404494382},
+    "gravity_physics": {"total": 1597, "correct": 1597, "accuracy": 1.0},
+    "numeral_system": {"total": 1576, "correct": 1576, "accuracy": 1.0},
+    "symbolic_equation": {"total": 1555, "correct": 581, "accuracy": 0.37363344051446945},
+    "text_cipher": {"total": 1576, "correct": 1576, "accuracy": 1.0},
+    "unit_conversion": {"total": 1594, "correct": 1594, "accuracy": 1.0}
+  }
+}
