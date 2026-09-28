@@ -1,10 +1,17 @@
-# NVIDIA Nemotron Competition Research
+# [2026-09] NVIDIA Nemotron Competition Research Snapshot
 
 This is the source-only public record of research around the
 [NVIDIA Nemotron Model Reasoning Challenge](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge).
 It retains reviewable scripts, dependency information, and compact
 model-structure audits. It does not redistribute competition records or carry
-large model artifacts in Git history.
+ large model artifacts in Git history.
+
+## Contribution summary
+
+This snapshot contributes first-party recipe, evaluation, and model-structure
+audit scripts together with aggregate research evidence and provenance for
+separately released reviewed outputs. Competition records, copied upstream
+weights, and credentials remain outside the public boundary.
 
 ## What is here
 
@@ -52,3 +59,21 @@ or third-party adapters. The linked artifact dataset states the licence for
 each original OpenKaggle-authored output and preserves upstream boundaries.
 Individual retained source files may carry their own notices. Aggregate numbers
 are historical research receipts, not a claim of a current leaderboard result.
+
+## Cite this repository
+
+For this source snapshot, cite [`CITATION.cff`](CITATION.cff) or
+[`CITATION.bib`](CITATION.bib) and use the tagged
+[`snapshot-2026-09`](https://github.com/OpenKaggle/nemotron-reasoning-research/tree/snapshot-2026-09)
+source state. Cite the separate model/submission artifact dataset independently
+when using those bytes.
+
+## References
+
+- [NVIDIA Nemotron Model Reasoning Challenge](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge)
+- [OpenKaggle publishing guide](https://github.com/OpenKaggle/.github/blob/main/PUBLISHING.md)
+
+## Release
+
+- Snapshot: [`snapshot-2026-09`](https://github.com/OpenKaggle/nemotron-reasoning-research/tree/snapshot-2026-09)
+- Boundary and verification: [`RELEASE_MANIFEST.md`](RELEASE_MANIFEST.md)
