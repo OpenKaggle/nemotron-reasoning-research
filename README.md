@@ -1,4 +1,4 @@
-# [2026-09] NVIDIA Nemotron Competition Research Snapshot
+# [2026-06] NVIDIA Nemotron Competition Research Snapshot
 
 This is the source-only public record of research around the
 [NVIDIA Nemotron Model Reasoning Challenge](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge).
