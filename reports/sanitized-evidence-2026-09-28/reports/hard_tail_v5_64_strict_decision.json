@@ -1,0 +1,85 @@
+{
+  "summary": "reports/hard_tail_v5_64_strict_summary.json",
+  "chosen_path": {
+    "length": 16,
+    "sha256": "33a0f3c46cedd92a6bfe0fcd993f096fc1c33cf3c64f4b7ef6f6d7162f687459"
+  },
+  "recommendation": "Do not train yet; inspect worst contexts and expand the audit slice until one repair path dominates.",
+  "next_step": "Do not train yet; inspect worst contexts and expand the audit slice until one repair path dominates.",
+  "scores": {
+    "symbolic_operator": {
+      "score": 0.1909090909090909,
+      "evidence": {
+        "task_rows": 0,
+        "context_hits": 6,
+        "top_tasks": [
+          [
+            "text_cipher",
+            5
+          ],
+          [
+            "bit_manipulation",
+            5
+          ],
+          [
+            "unknown",
+            1
+          ]
+        ]
+      }
+    },
+    "bit_repair": {
+      "score": 0.8,
+      "evidence": {
+        "task_rows": 5,
+        "source_rows": 11,
+        "context_hits": 3,
+        "top_sources": [
+          [
+            "llkh0a",
+            10
+          ],
+          [
+            "bankoglu",
+            1
+          ]
+        ]
+      }
+    },
+    "formatting_repair": {
+      "score": 0.8545454545454545,
+      "evidence": {
+        "quality_flag_rows": 8,
+        "context_hits": 9,
+        "top_flags": [
+          [
+            "prompt_match",
+            11
+          ],
+          [
+            "source_answer_match",
+            11
+          ],
+          [
+            "final_boxed_match",
+            11
+          ],
+          [
+            "multiple_boxed",
+            8
+          ]
+        ],
+        "top_tokens": {
+          "count": 5
+        }
+      }
+    },
+    "adapter_arithmetic": {
+      "score": 0.05,
+      "evidence": {
+        "reason": "Fallback only when no task-family or formatting tail dominates.",
+        "selected_rows": 11
+      }
+    }
+  }
+}

@@ -1,0 +1,1853 @@
+{
+  "overall": {
+    "correct": 8364,
+    "total": 9500,
+    "accuracy": 0.880421052631579
+  },
+  "by_family": {
+    "bit_manipulation": {
+      "correct": 1440,
+      "total": 1602,
+      "accuracy": 0.898876404494382,
+      "methods": {
+        "bit_global_binary": 904,
+        "bit_per_output_gate": 155,
+        "bit_global_unary": 149,
+        "bit_global_ternary": 394
+      }
+    },
+    "gravity_physics": {
+      "correct": 1597,
+      "total": 1597,
+      "accuracy": 1.0,
+      "methods": {
+        "gravity_interval": 1597
+      }
+    },
+    "numeral_system": {
+      "correct": 1576,
+      "total": 1576,
+      "accuracy": 1.0,
+      "methods": {
+        "roman_forward": 1576
+      }
+    },
+    "symbolic_equation": {
+      "correct": 581,
+      "total": 1555,
+      "accuracy": 0.37363344051446945,
+      "methods": {
+        "missing": 579,
+        "equation_numeric_deduce": 571,
+        "cryptarithm_concat_deduce": 59,
+        "cryptarithm_concat_guess": 164,
+        "equation_numeric_guess": 136,
+        "cryptarithm_digit_deduce": 21,
+        "equation_numeric_missing": 25
+      }
+    },
+    "text_cipher": {
+      "correct": 1576,
+      "total": 1576,
+      "accuracy": 1.0,
+      "methods": {
+        "cipher_vocab_backtrack": 1576
+      }
+    },
+    "unit_conversion": {
+      "correct": 1594,
+      "total": 1594,
+      "accuracy": 1.0,
+      "methods": {
+        "unit_interval": 1594
+      }
+    }
+  },
+  "records": [
+    {
+      "id": {
+        "length": 8,
+        "sha256": "ec14a4f54b0a5e550cbfba43a39a58c95c1658a840cfbea927001bb891955bc2"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "459c2daec5458568864215c57d12fa0ae28243b080971bb90d09fe020f8f265e"
+      },
+      "prediction": "10010111",
+      "correct": true,
+      "method": "bit_global_binary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "978644dc6678e9dc04a18f3473b8b3bd99aeda685ffecee31531ee6d8950a288"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "aca712a820047dcc3c512e34f70f041aa6d6c6e61b5515722dfc214d29a75c50"
+      },
+      "prediction": "10001001",
+      "correct": false,
+      "method": "bit_per_output_gate"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "08a802db550fe1e050c9fb9ba6052e3572ef9730b8a8dc6925b5a7ad51725e77"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 17,
+        "sha256": "e549fb19fca44bf2066eaa13ac73143e58d1a6d4a2381e757d0b2e584bf66896"
+      },
+      "prediction": "cat imagines book",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "24eff97fcce297c9d2475ed16b5a6c999d8822eddf8af40b368e9e4b7316ed2a"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 7,
+        "sha256": "5fc1c4c052c32a1744e002892b9af15bee9d5010bb1215e4a526c04d4e27ec2c"
+      },
+      "prediction": "XXXVIII",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "6e29cfe2e21cfc15aa1ae44ec049189cbc9648e3641a5ede172efd74651d07a6"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 21,
+        "sha256": "a6b4dd56f6ae3bcc592a5d588730d9cd596dc55b3c9d57b0afbf301c1c0e2e24"
+      },
+      "prediction": "wizard creates secret",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "4a3400b289a4d375ee94c8706f220eb5da3fe5f54cc52186bd3df457410d1bfa"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "aacbec2a8dfda08c3a593346fdb92de5d41e6a5c61404700b9c19fa547eab132"
+      },
+      "prediction": "16.65",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "99b454d47570981905c55d59892403fa5f946907815a3953b8c71ea14717ffbc"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "ce834a6214d4b2d9231c2ae8e90756b30455c79cf8089ee5cf3dd2e8ecedaf2a"
+      },
+      "prediction": "00110100",
+      "correct": true,
+      "method": "bit_global_unary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "f8949704463794958e6c17b6122a27b6cb9136a32f7b71d38c9d3ab42b7090cf"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 6,
+        "sha256": "b3ef48d32918bdbf9f8b0432a124e61c6e1bd5f8b333dd16fabf8b6d64c0e9fb"
+      },
+      "prediction": "154.62",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "67c121e1a22bf6bd96b2f6a0e07d30fcda9409ceab91da6fae656185a9eb09e3"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 2,
+        "sha256": "d8969d774863a99fe7eabb97c6bedfbbbc6734f6217d3412d192537e5218294b"
+      },
+      "correct": false,
+      "method": "missing"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "03388df60358a7963346853a679ab4eb741782a84fd9cda987977fd85d6fe04c"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 5,
+        "sha256": "d2054790e1ad0245f018dd36039ac5ec1203e2542b56f2f1840fd9f977bfbf44"
+      },
+      "prediction": "50.51",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "cf2d4513798f80916121ad0b0a833620b2c1c417082fa125de8ab4c8cd321aaa"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "4d7f87178c561a2f902315f29a8af033c9edd0041ac462ebccd7b1669017e202"
+      },
+      "prediction": "10.62",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "00807cadb97702e68411efb3e8240c0e5c1c46743c55433e5ae30e52943899ec"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1"
+      },
+      "prediction": "11111111",
+      "correct": true,
+      "method": "bit_global_ternary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "326f90eb60fd6e2279b6fbdc65311ffa17c5b99065c79476dcf6f63d5af336bd"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "60c2b9c05ff7e77e735a4aa14299df8605d4b24169115d9fd5281f9d6d9eb7d8"
+      },
+      "prediction": "43.44",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "bad41b62f9d84e8141f538ab050f98b6bb6187f5fde2c397e16f34eef8bbc3d2"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 18,
+        "sha256": "32de3b1464b1e1ad8b74efbc2c0240d366bcad50d7706020085181b7a8551b0f"
+      },
+      "prediction": "king chases castle",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "fef62bebac4b4ce236a761715c4b31700545334bc6f38af6745ab475ed0ce2ae"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 5,
+        "sha256": "3177fcb1e92a2e1ec4fecc8a6cecb348e14dcbd9bad087ac7bd5234ca6632edf"
+      },
+      "prediction": "LXVII",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "8e15ddb89e50974dafaa9386c704388d0a1c620c4fa19de9fe363ab628385114"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 5,
+        "sha256": "248ba5f7402c156f47c827b49c597d6b0e1f6a5c286209a934160a617cab5f12"
+      },
+      "prediction": "91.84",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "208476313813c24d03db1a6b4322caaf362167e49bfdbaaae2b64648e42956b3"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 5,
+        "sha256": "8289a11d988d3394f5f25ede0a040e20775316233b477b8347d6275d9995158a"
+      },
+      "prediction": "11.78",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "bcafbad29e0e7866da18e3ee42888d2e105134fc6dcdddb6ef769b49de8123e8"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 30,
+        "sha256": "8825d6f62868750ad8e9d22511cc4273b36d806c5100630f622dc23e098a7a73"
+      },
+      "prediction": "alice watches under wonderland",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "bd5d005759dda4fef86d2fb19fee194a9ef676f312972201ea3d716e135bffb6"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "df644619dbde1f1ce84f0856bb77cfcb2c5037c8e2e54b5bec90b796f7b5bf43"
+      },
+      "prediction": "19.00",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "d2a6abb4a484a173f9103b554255fe094161ea21ad1a6ca6c68c0d1f68f7cf3f"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 5,
+        "sha256": "b89680e804ea65216f718f4b6c3ffe76250439bc4399a29b80fb83ebace99ae0"
+      },
+      "prediction": "20.33",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "c20f9fee51fd8746e6bb85899bd33b359f8fb8be6bc11fb78587e19aa49a6953"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "af3a9fac9c16f15f601dba12a8c9b416d5bea5273176e3d9beb3f227d38bf07f"
+      },
+      "prediction": "11101111",
+      "correct": true,
+      "method": "bit_global_binary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "4219cfd3e039909680327df6c287af52737844b8d8b05e61576275e701d0b68b"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "6e13cedc248a04dca5a9ec274d49f6cf4d982118992931b9b62f08d1bfd89a9b"
+      },
+      "prediction": "01111100",
+      "correct": false,
+      "method": "bit_per_output_gate"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "99f3157614e85e5a2b03579960490165b5ea9f666a3cc84a46ef3447a3d0170f"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "c210ee457de0ebbda425b4ab0a08f4d06ccd6af6b8fc0fbab5dd04115cf78581"
+      },
+      "prediction": "01100101",
+      "correct": true,
+      "method": "bit_global_ternary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "9c34c8e476a0057394f8446a66e83202e749a7e5ea2c72a9d0bdf483d94d66c8"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "3b0556cb9030f74640d3156fe6c7370412fd32e8727dc03f6f1852d8dd533c94"
+      },
+      "prediction": "11111011",
+      "correct": true,
+      "method": "bit_global_ternary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "e2a5afa1a1cbb282e4e970dfaad7f98cb41bdf8ca622d49809e73ccb1939fda9"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 30,
+        "sha256": "0586fcbe4448ee08daec0af6cc411d6c1a1f0a10818e757a50fdebc7678e6371"
+      },
+      "prediction": "wizard watches through library",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "52a724ad802f0206eb763a4ceb756418655f78a565ef0edaf4793b1f25a75fb5"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "b366781e330d09c86c7df10a91258193b2a9b2f6f7470ce6ee03f2eb9864d9d5"
+      },
+      "prediction": "20.56",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "f9307c718ba324d336682b38abb5348b8937c1fed51b9123556e7a64eba78d23"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 3,
+        "sha256": "5a7745c7c4a968dc9b4d808fd27f9c38b6c84a0974e10377b4f38f01f66c87de"
+      },
+      "correct": false,
+      "method": "missing"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "95dfb0da31836cfe00e7377fab635f64633595248e2f2ca7d50ffe46b9ee9367"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "e140c77912e87aa6d944556571a0fa6f64e4c536366e82e7213ea3aca89cb1e8"
+      },
+      "prediction": "23.75",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "32d094aeca37698b78abb0c57cce136c282e640ed9f47286c2121a554499d680"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "c6e48debd103ffc262f2a64181575690b81e0fea7a707555f660f4509b0db5ba"
+      },
+      "prediction": "12.48",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "2a5a5a2747339ae5e73f46409e1450ea1a7a70038fb1b74a4ae4a40a92e09259"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 3,
+        "sha256": "5d13ddf928079cc96f8872802ec8977707354e0b65af6fb9261d47694501ee72"
+      },
+      "prediction": "71",
+      "correct": false,
+      "method": "equation_numeric_deduce"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "fd7f60cfef0964bf7911bd99cba35e9bebaeea78252e9fd21d4d799c8550ddf3"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 1,
+        "sha256": "6b23c0d5f35d1b11f9b683f0b0a617355deb11277d91ae091d399c655b87940d"
+      },
+      "prediction": "C",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "c869e1e2ce8b931dba5474a6e0183dd98e0e733280a5bf72d73dbb5d7e69b95a"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 4,
+        "sha256": "9abb3c18b01d58d53ee348561d93407fccb0db28317974219b5a86b16969213c"
+      },
+      "prediction": "7.66",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "eaa08d373bfa9248098680a07950e0485e25abef3ad23ac50471560da6e8d8d5"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 5,
+        "sha256": "430d04d8f33d321bf978c474d53a86ca6988e439c642fc3dbe346ca59be0808f"
+      },
+      "prediction": "24.28",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "fdbb034ce5be02c85e5a149be7014a9939da68c99fad928a12b4633945d04e31"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 36,
+        "sha256": "89e1afb099e7e392d9deb76a12c5d478d6462015279c5b59f517e4f9c0ee4b81"
+      },
+      "prediction": "turtle watches the mysterious garden",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "c4260cf0ae783d8d9133b8b131769b81593be0bb99e5f76ff239ea5c45aac4d4"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1"
+      },
+      "prediction": "11111111",
+      "correct": true,
+      "method": "bit_global_binary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "794de981ff493cde95a92b5b5638adc5752841efd02732304a31e4f2a15bcd69"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "346e6f08eb09b4da19416dfe854f0e30e36e7921815a4ed3efe9655d5766c264"
+      },
+      "prediction": "28.29",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "1538649695dcfe3228c76dc94a58ff5db22bb6708fec84f0f576e891b175b06f"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 6,
+        "sha256": "67b2a2e6b4ce6130f2c45db027db40c3ce3757a738f297133769f4acb5c1a236"
+      },
+      "prediction": "LXXXIV",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "6aa6fea69b598b255b2ea66c80b26546e9cce4071c3e4fdbbb5fac245a7a514f"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 2,
+        "sha256": "46646e9d5e185e2387719eb2d19f22e7f3441edea6b2bd0a9f8e0b55738d9595"
+      },
+      "prediction": "LI",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "b3c882fa73173c49ff3540a15c11903c18d92ef1308b6cb5c0e477f2b67813ed"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "a6bd6c075db6fb140892341bde5a05ac51cb15bfd02d1d670e113cb47376cc4c"
+      },
+      "prediction": "11000101",
+      "correct": true,
+      "method": "bit_global_binary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "087da11fa412a3f97ffb0fef28eac120920cc53a2e34b1ce420d8002c2d69d09"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 3,
+        "sha256": "30ef0333e99b05b26ea1f09e0d3c80c02dc338900c9f4c2b3a656b1142a4e12c"
+      },
+      "correct": false,
+      "method": "missing"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "e2e14921c30604581e5108a58c079e577b323b0398024294cb2378bd87f0c495"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "f723af947916be3f055ad8ccd2f4e5d5922dceb2e8b6b5afd2a7c9e66553c6ec"
+      },
+      "prediction": "10000100",
+      "correct": true,
+      "method": "bit_global_ternary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "3f93d200e594ccb09f844aae0f67253105d50646683a56c7e8238570e9d4c647"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 4,
+        "sha256": "41914992de27ee24ed9dcedbeaf07c5d1fff086bde6bcad672f526dece1d1c96"
+      },
+      "prediction": "\\([#",
+      "correct": true,
+      "method": "cryptarithm_concat_deduce"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "aea7cbb34bbb330a35e5e83522820b4281ab21c945dd0a610de416c296e284d5"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "6be14b2d35b1e61b4fab95786368b8125d67d90c06bd09b87706c3b90ce77b4f"
+      },
+      "prediction": "38.74",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "48e2fc7ffd99c2a63b2c9c2eb1c43d4e06d951baa36f8193e597345de2af6c5c"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "349c524dfd782bb35d48fd6d6681d6177ee74799e4adbcd5a40632c6e329b10d"
+      },
+      "prediction": "46.92",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "4098f4e0858c86f3389011194ed36a194432e2f4d4447e0991f0217c752ea80b"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "557cfcc36e7a6f36423d3b8632c831ca634d56f9bc96955805f13d37263d694d"
+      },
+      "prediction": "54.29",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "7b60c72286f4b08b28b1dd1d620f829e393f4140cb22ae710f664c5c37b746f4"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "65fe6f131cac759ba9ab258808b59b7a0ab785472983b3c46a3eeaf07d42120e"
+      },
+      "prediction": "66.59",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "ee2f6a7b899dc3b3921ff72f62c1b5a29fe4bac3bf4ffba4cf070770302c10fc"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 6,
+        "sha256": "1d829bfa103726f57ca584f2fc973f97c4854adf7a438cc3ca8217cf39514f03"
+      },
+      "prediction": "LXXVII",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "253ec3efdf233ffc273ce0db449d75fe38d6b6646be342f52a19f1548510767a"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 3,
+        "sha256": "8b936b83d7b18456dc30858d8d5515814e68aea0258307c49f8e3fbd92fd76f1"
+      },
+      "prediction": "LII",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "289344338642599aa41bafd022f0360003fc1a656a19448ed2a2b1d918fba500"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "dc5a3d945944dc7e2816a84433ccce62abe2197b5202beb8028af4e4eeb482f9"
+      },
+      "prediction": "62.33",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "7f768fccef28c719badf32a256d9aa1b30de539a197f88a5f3a1b4cbcd329701"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "147c476b8b3a9c860319710d4c37d12f102282fc47b8fabacdfb8afab6b4c7ec"
+      },
+      "prediction": "00000100",
+      "correct": true,
+      "method": "bit_global_binary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "e1700719afd8185592701718dd9732caceeabf8e2ad539f1cb0616a6c9bd2a27"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 6,
+        "sha256": "b0738f5b80d7b55dc3e0a99a28dbec5dec4ef3d8e272fb4ab096e4da7cbed569"
+      },
+      "prediction": "140.43",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "114528a038aae5e194d720550c13e510590fe54ea1f9fde72b46fd4625c4657d"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 23,
+        "sha256": "352dcf883f91edd0105a214d2bae7b45634f9e4d074ce13d63596f2d4d101459"
+      },
+      "prediction": "rabbit creates in ocean",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "54bc9835b4644b164c41ca2c9dbf45aefa855bc5f6b250f9be7705763e575bab"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 2,
+        "sha256": "0dc40787b2d62858ec016020060e568097aa53b6da8ddafbf81b70425cc845f2"
+      },
+      "correct": false,
+      "method": "missing"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "6a684cf1b542151458d3bae173504eaaecd14f8e3002e91d64a17eaf19a6abc3"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 23,
+        "sha256": "288df63d23d8105097044986f6aedecf726dc72a92ed3c3476358bf537dd38a6"
+      },
+      "prediction": "wizard reads in village",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "250b9b983b065300bd08016fed87dd40b23f06b8d2b62054761bacd3331c227e"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 4,
+        "sha256": "296fb83d813018bfe6e80e73c7e4be4331b8736abb7e623919e87d43bd1afa77"
+      },
+      "prediction": "LXIV",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "999ea96650cff4d1290b35661e7258cf8be45c4741f96542a54143881ea71848"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 5,
+        "sha256": "cff2ae98c2890bb48f1fa4f223d4dd98f6bb44b59491d4158050f039e664eb19"
+      },
+      "prediction": "XXXIX",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "f69f37e7ad8c1a3137d983d916043c19fa2079db250f23acf7fe4ea9d2146ae0"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 23,
+        "sha256": "9beb6aae05002ddabd44e190fe299a065dbe3e11c9d3d6f40dc19940ecd2bb33"
+      },
+      "prediction": "the wise dragon watches",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "077d868c956a1fdc350b81cbce2c4dff0c9ee7b80f0ff5b8f30a89e05ec75099"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 2,
+        "sha256": "cddc3895eb025399ffa7ea885ad307323375c0892660ee787d82992f75bfb23f"
+      },
+      "prediction": "XV",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "5334f848ea4c2119ada307681c120c1b028d257fa6be538d4d4a0a54de3b99f3"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 4,
+        "sha256": "94e634ac63620eab982ebd55f5f8862038782070d9f2e7f3c252b2f4c48d3193"
+      },
+      "prediction": "45.00",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "c8fcd9946c0c403632e0eb9dff5cbe90564341232317df6a298af7f931665ec1"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "940e692b7ef09106d8bb14e44cd5cd473673a54c30fb2ecc370bdfee46e89177"
+      },
+      "prediction": "23.26",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "ea01b641fe5092128f689e4e0b445c9d2525f76291ee0437deaf56a36229c2c5"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 2,
+        "sha256": "a05bef13fbe4f875b70418e0f9d25a93fa90a2294b3128b216ba924ae11f061b"
+      },
+      "correct": false,
+      "method": "missing"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "d81746726a77f35a0c56e4af3364111b7607159013e9821f37f17e1ca561e7fd"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 20,
+        "sha256": "3d12bd0eb2d8bd2fdd582e209067c87f611f7179d90cd2fa5b7e8f5438e56d44"
+      },
+      "prediction": "student follows book",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "09bcfd20e467120a79b1e03104e70d72ae6b039770cb1232cc5095711fb123df"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 4,
+        "sha256": "926c7551fea60fd3b11ff8f1693384f69d342f54b02288755411fd8c721b56fa"
+      },
+      "prediction": "6644",
+      "correct": true,
+      "method": "equation_numeric_deduce"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "5b8f8d73a2dbc74002a7fe709ff6abb68544e99cd4888755dca3973a4958200e"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "fe87a77625b901682780c0c10f8dfdcdc5bb36de8abfd36248f29d51391d7679"
+      },
+      "prediction": "11000000",
+      "correct": true,
+      "method": "bit_global_binary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "6ad0a86a5e1d1a1f3f1571c2619fff7ff24d5661c48d02d5877e7cbd21805dab"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "8c547fc5294d86a61e43abbc3958a22df49abbb1dfac5596cf8950875112c1dc"
+      },
+      "prediction": "13.71",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "6b3ee9f53a8920f2b2512f2e32431487f0123ccc4d9ad9e3eb132471ec60ff8e"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "94b3642c3e98991dfcee1be33c3824813c9264ea74eb87088210eb29c7c0e790"
+      },
+      "prediction": "00110000",
+      "correct": false,
+      "method": "bit_per_output_gate"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "e0841401c585acc9dd3ae194d7d9c8fe7f049ba08630f3ac22b03d019c788da0"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "def53b8e8e7d2136ac5ed3dc03319f2af7ab67cd196d4f9c01e148a0eb37f407"
+      },
+      "prediction": "01011101",
+      "correct": true,
+      "method": "bit_global_ternary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "4c3cdecab073179325cc1c2cd33befb97b8ccd440cc1735a20236f4500a892a1"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 3,
+        "sha256": "d85bdc78be118534939ec60639dfc13b9ec4903ce88038410de57974f0a83a99"
+      },
+      "prediction": "''`!",
+      "correct": false,
+      "method": "cryptarithm_concat_guess"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "bce57ac1f000ce90e44b43eec80bfa8dea998f63268fa2652bb386dc79816284"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 5,
+        "sha256": "3177fcb1e92a2e1ec4fecc8a6cecb348e14dcbd9bad087ac7bd5234ca6632edf"
+      },
+      "prediction": "LXVII",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "1dbfc69e8469b731152dc2c8057eb43f482ae2e0ef836e689178d50ac97c5270"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 4,
+        "sha256": "3bdd709baa1b71ad80ad5dc7eb44bf7f27470985c371acdc7b23615f0ea5b455"
+      },
+      "prediction": "9.30",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "31bff8edfc939c5f1efd8cb61c7656e15a973369947f82aa8931e29d406f7a28"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 6,
+        "sha256": "76fd6cd98f52ee912e3143dc81ed7dc16b4ca6014aecf0ac28375287b83ca583"
+      },
+      "prediction": "141.51",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "7bdde234d1aaafe63e013d2e03d3adae5bd5f949782adbbe5625811f8ec3076a"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 26,
+        "sha256": "61aa976f44ce2d226aad49b70edf48097bb58eb3acd9d76c3a1c8b210260e78c"
+      },
+      "prediction": "king studies beyond valley",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "0d2e41795e0bf66a990d4cd98a3599be97d49b815251c43b4000901f77651cca"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "9b0e12164232d5cd6b708534cfb93cd1fe0c1f5833329d567fee7b8fdbed9868"
+      },
+      "prediction": "11110101",
+      "correct": true,
+      "method": "bit_global_unary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "ee996a36c8d961bdc26887ce4594746fed92b0e0cda7ae4dd944b3e27590edd6"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "1f95f543c15d22e19e8a9f959f603469ac31026f75400df7d5a0f12eecbe1217"
+      },
+      "prediction": "11100000",
+      "correct": true,
+      "method": "bit_global_binary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "5484adafda038ecd15d521ed821b25f2fb7da40452bba9e73ef8e298c9171e89"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 5,
+        "sha256": "21550e64c28b705ac8c2f5b3753d305663041aacf32e629eb2f3b0631788e45f"
+      },
+      "prediction": "LXXIV",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "c73f9de0d014feeaf12d79d6057ed1438dadaaf35e7133c4fbe0765037b9164d"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 5,
+        "sha256": "3bf62b3039e8a8da79c5cd0a7421ccb84099a6f3833a1bb105bc7d12268a0643"
+      },
+      "prediction": "27.75",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "cfe72405b2e3b73eec8c46f3b61265ad3bcbe206575fb40f1d1d0244b2b56164"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 28,
+        "sha256": "5ae7db6191e10643387bba4f8f0a9ef838545222de56dfeb46dd4d90a54b6b2f"
+      },
+      "prediction": "rabbit explores above island",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "51bc0d18d729c116a0faa0b37ab8a03799dff396eadf455cd2e539ae9106df45"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 5,
+        "sha256": "b79d4951c1220eef9d75d1792b21b33c8c839acc07a2b093e0f37ae012630d56"
+      },
+      "prediction": "60.40",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "ff0fbd9df0ae54a567c02b9a3f3d56ae54e24acffd46fac550bd265eac372bf4"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "391129c952673b00d68c2ed2531816b10023ff5aa439eb6f1c8d4c51f62c080f"
+      },
+      "prediction": "11111101",
+      "correct": true,
+      "method": "bit_global_ternary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "c3420fd1523ee794714289be1595ce30b6b97b67e2ca6b4ef0f4c10f360c0384"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "551ee010ee039a7dd623f01ae1c6118a4f6358752fc99f879354c9b2de498d9f"
+      },
+      "prediction": "97.74",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "eba759ed813e0576c59e3c82958e09dc0e312247a2f9b766b3c674143e6a9e46"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 26,
+        "sha256": "7d2f3bdd5d553bc695960cf4a5f74998391294309dc091eb3fd466c9f33ec54d"
+      },
+      "prediction": "queen sees the hidden book",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "16398184e6d88468bfef33dece2ecda95232624f483c509aed248900f0b427ec"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "c4a7db19b72fcf706f8282a5ab0419bcec16ed555bb392eeb4471703f3c496a4"
+      },
+      "prediction": "11011011",
+      "correct": true,
+      "method": "bit_global_binary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "3df7d6ec64997fb5c59f9a04263e5fe73b8ee19ce76ea55bd01bfeb3a67847b0"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 19,
+        "sha256": "fe0216cc8ca314547ea0925f70cca91703312fb23d119c9ac2d30b33db5ccb18"
+      },
+      "prediction": "the secret cat sees",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "af55e3fc8fc4b26a8878adc7f630c1a153e9afd0dc50e6170d5a160daa4ee72c"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 4,
+        "sha256": "1665cfc1eab3813746e0bd3af7c03d8f69978ba7cf3da5302850d6528496343c"
+      },
+      "prediction": "XIII",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "5b5c266b9d3040ff81ac99a5d80ba5a080c81ea6f00274b72dcb1b6fa8443c9a"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 2,
+        "sha256": "934fbfa9ae1d89a305cc91b118a161898ae1b2a98ed1b1e24454fb8962972dd2"
+      },
+      "correct": false,
+      "method": "missing"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "4a67f6290cf44898814c56afca1d87da6f373f6fb38762dafc7ca11763c2009b"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "f28427ece45996e731e4ac9c3b3afcbe1310a915d06e0f1dfcfc6fcc5bb272d3"
+      },
+      "prediction": "11101011",
+      "correct": true,
+      "method": "bit_global_ternary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "7bf6eb64fb010fcf53a5ce5b600b5f9a4574e35f9534b043e66641def1137bf6"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "f583662b6fd9de40cffc6de858bd2eec0e7be9a4c93996f4b1db1816cc6bc9a0"
+      },
+      "prediction": "28.23",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "af188054bbbaa8c633c5d76116833605cb92ceb4d968bca8b575dbaf7864c14b"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "4c52f567b3bbc23b8ae9d28bc96f8d55f11d30201a2b0721de17e799c4b4ad6b"
+      },
+      "prediction": "21.09",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "372e45ae4fd11babf69fb0cf8f47f467ec22c9e0b378d612fc75da7395fc6ab7"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 6,
+        "sha256": "54d3bb6870fbcba5432881db3f960cc313ff2ae7fd95a940c45fde0f4059fa9f"
+      },
+      "prediction": "125.68",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "dfee7fafaee88193aec4d136aa777af832e832b803474fa22626014db96735c3"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 4,
+        "sha256": "f3d8a447d64f59d292af1489de4a731f2076bb698101a2ccb745cc3a0f8d5b58"
+      },
+      "prediction": "XCIV",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "d718af6f8f49f9b43879a5cb2c8bf195c5b7bc45b43b8ce61e7d48ad80a1a2bd"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "f9f2bf5f4d65b84d80b1c442e407d77af5390164b8035fe75a74286ce96979eb"
+      },
+      "prediction": "00100000",
+      "correct": true,
+      "method": "bit_global_unary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "78d333cc1f3b61e7e1259c0db68ffc624d851942fd44697517f00b68b9d109bc"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "849577ff77e8b75beb7e3f518a2c363b1d96d93b26e7e2abf4fa87624fe922a7"
+      },
+      "prediction": "41.14",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "26e6524d6a1b41dd2d3a86d3277384b5b2a7e00bb379ce3beb68c95f305db8f8"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "ae8f8df844de4c5c3e498adce139c8cd7b975b03bdde650982bd00aebb0d3df9"
+      },
+      "prediction": "00001001",
+      "correct": true,
+      "method": "bit_global_ternary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "20c4add0ac523ea9bb316d5142622bbb22d307c27e12b5292083667717147478"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 23,
+        "sha256": "2f79adb1b4168afb7dd2296a8e223026d51bd21152520cd28d32f59ede33f0ec"
+      },
+      "prediction": "bird sees in wonderland",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "e0bc01ec59f91efeade681200ecc1b1ed64efe8ecf5a82dfb58dd81d1977b244"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 5,
+        "sha256": "921533e0cd64474bb915a68ae2f831cf716f1b0d16c65213c3f1872f0850ef2f"
+      },
+      "prediction": "55.52",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "b7f186fc720c697c81455f7efdcea6436e4103af65045b2bbaef8ae89b4cf491"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "ae5ce162888ee3ebe974976cac5ab94a3f55049f8515884883d579fb3fa378d2"
+      },
+      "prediction": "00000001",
+      "correct": true,
+      "method": "bit_global_binary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "a1ad635a01192b2b8202d9e4f172a0cabe3387634f0dfa40ca661bafa0af5db9"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 3,
+        "sha256": "7b81eb727ed48055fa55c5e03aaa43f27b01bd9b1c8eb38f37a1ca541a79c1f7"
+      },
+      "prediction": "631",
+      "correct": true,
+      "method": "equation_numeric_deduce"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "6c475d2f398fcef91989c4e0c9d2254f5ea0910e78c76a2889b79bb377395f24"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 3,
+        "sha256": "8b7bc800156e3070cad564f88f8f51dd036d9bd1c8568a58a1794ea283ff1ed2"
+      },
+      "correct": false,
+      "method": "missing"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "b7454ee3d24b70990a874542396dd7869eda70e7ddf5e73c0257fd213bb19c0d"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "7e071fd9b023ed8f18458a73613a0834f6220bd5cc50357ba3493c6040a9ea8c"
+      },
+      "prediction": "00000000",
+      "correct": true,
+      "method": "bit_global_binary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "73e8f508fecf07f9aee72e63073b5bc4f2826e95f722813a8efca6e3f3e8d9c1"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 4,
+        "sha256": "ef1e8f39f2997c6e27c2e33e47013dcacba5238412491512c70b4b2eccbd523e"
+      },
+      "prediction": "6.06",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "251475a1214823bd319e403a0eefdfd598971468b06f18e97be9ea4cf0177180"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 23,
+        "sha256": "778bc0c1882ee1028ff52ed8d3ab85e2649e5c7466c63f45c333cfa150d4868e"
+      },
+      "prediction": "cat draws inside castle",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "426d97c564617c3519b2e5868878dee128401ef2a652107bf433944711562e4f"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 2,
+        "sha256": "5ae2d9409668d4d47201cf1f67295955219e2adbb1bce87cc36d59316085955c"
+      },
+      "prediction": "!!$>",
+      "correct": false,
+      "method": "cryptarithm_concat_guess"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "d92a65715f8b5b70ccb980718978ddc7ba3ced1fd27d31090723f42845ec2bd6"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "21bd26348294f106c450a00615732272a1cc4a436203da89a15ca85be3a760e6"
+      },
+      "prediction": "10101111",
+      "correct": true,
+      "method": "bit_global_ternary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "2af55fd4fa20af168e25b2d38aa1b58fd7f350cca1546dbf9e601286dabcfa33"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 4,
+        "sha256": "18a78826b9d783714dc0600f08aed4f3cfb1d7e2b93b5c82511f3ba62d0d9fa5"
+      },
+      "prediction": "#>]#",
+      "correct": true,
+      "method": "cryptarithm_concat_deduce"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "55c3c9daec99ec503dbaf7e8b6a2ca7ce9c9fbe6b8ebd77e458f51c234ee8022"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "4daa7706602a29756022aa1afc64893deee689f532fcf66128c2c71920a1d5bd"
+      },
+      "prediction": "56.65",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "765e1ced7ff37fa01dc3cbffadd9af1c73726c30b06b37eaf121ec3513c2d875"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "a0cbfac5bb8a893527764e253b16782bd633157e7753c911e1efa2db1ca4df5e"
+      },
+      "prediction": "01101101",
+      "correct": true,
+      "method": "bit_global_ternary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "9a525adef79960195098e8aef1fbeb6c7f7c4dd16bef1530143f5acc3a42a8de"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "d1255fbe519cbb674981045fe834cb512830191466e4ec13c8353afa88792b42"
+      },
+      "prediction": "00011111",
+      "correct": false,
+      "method": "bit_per_output_gate"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "cc17eab95b654fc8507c872b3100cfc0e859fbb2123eef5f4537e3995608586f"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 4,
+        "sha256": "8eb22be9d60a720ea7fd3745091a827c364fb3625867c14882b17b3f5b2bdcae"
+      },
+      "prediction": ">$$>",
+      "correct": true,
+      "method": "cryptarithm_concat_deduce"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "9b22fe485f02927cea0ca4eccfc5922c35b35d0bee96694d3ac0d35c366e2e87"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 4,
+        "sha256": "75b6c84c0c7d9a89c7bbed1845348d3e106c6b671731bd5705672075f022fc0b"
+      },
+      "prediction": "38.60",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "55a92be3951492138872767e4fd162bbec10f5db67e5d7bf84bbf05d00960eb0"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 1,
+        "sha256": "32ebb1abcc1c601ceb9c4e3c4faba0caa5b85bb98c4f1e6612c40faa528a91c9"
+      },
+      "correct": false,
+      "method": "missing"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "480c6d0000c15d8700f33a95ccfc68173db1e40a744a4a925469b362f53dce96"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 6,
+        "sha256": "1ad0ddc322be914c9022687d43cebe227a160293a00452d8b5ecf189da71ae9b"
+      },
+      "prediction": "XXXIII",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "1cd69366b6b6b370c7d651e18bf3efc65fc8f0f386af154e2b62adebc8feb904"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 5,
+        "sha256": "66026b5bc1bc0610051789ef2e112a043702764c6512e9ae8c4da66ecad0301d"
+      },
+      "prediction": "55.28",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "2cecf2509c748d03f60333d06bd594fa17fce6ce4f81a427cc9abcbc86f3adfd"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 21,
+        "sha256": "2cb1713c9a5d411c6323bb359a37ef6caeeccf1ee0df4c0627391593339961f6"
+      },
+      "prediction": "wizard follows mirror",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "017ad8221f3544bcbc486d396cd84a229026fa2bc1eb1955c4cf6ba9dcd23134"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 4,
+        "sha256": "c03d8d848f4f3f2faf284dd1432d86858f91928fd93a85d75fef65bc126061a4"
+      },
+      "prediction": "XLIV",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "c84ed7fb3f5fad14557b969f6543889712938e9b7aa87aa48c437cd5abe493e3"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 4,
+        "sha256": "f3d8a447d64f59d292af1489de4a731f2076bb698101a2ccb745cc3a0f8d5b58"
+      },
+      "prediction": "XCIV",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "5d95666d0b8000ef6c1809244efcfc2bf172686d83ed94dc19e2100092400236"
+      },
+      "task_type": "symbolic_equation",
+      "answer": {
+        "length": 2,
+        "sha256": "4810bc5dedac6a37e24f11713ed666e8709590a56b3b187d0139f8d79333e857"
+      },
+      "prediction": "\\]]#",
+      "correct": false,
+      "method": "cryptarithm_concat_guess"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "58b77992093d3548da4808d0770d611a0c79a5232251a4ac620f95d844b24aac"
+      },
+      "task_type": "numeral_system",
+      "answer": {
+        "length": 3,
+        "sha256": "f6ba41c0f5eab2cb7894ad8d02e8da0c86b232046a0d363feb7c3295a35754c7"
+      },
+      "prediction": "XCI",
+      "correct": true,
+      "method": "roman_forward"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "d2c5cd8ee7d94ca6990ca311d89a5e143dafb6785cecc052897d5728f64f12b1"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 26,
+        "sha256": "094be48b5a6272e50692889355c2ca78a3f85978c2f8a296e1f314f653852916"
+      },
+      "prediction": "the curious mouse imagines",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "3d8297d3d730625000fefb042005986a6aa2fd0a3e07bd3822de7351f6f0786c"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "2884e5901cf3809c431f52da7f041d7b3754df71810c0dc6ab6a705db39ee254"
+      },
+      "prediction": "01000110",
+      "correct": true,
+      "method": "bit_global_binary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "bd345da70799cade847dba66f712e2e4998defc78cc587c972865d343f1c36f8"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "147c476b8b3a9c860319710d4c37d12f102282fc47b8fabacdfb8afab6b4c7ec"
+      },
+      "prediction": "01100010",
+      "correct": false,
+      "method": "bit_per_output_gate"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "ffb0b0031d8f55fe0d6f77aa963b1c9d67a3922f097d0dbf2629f530e4951a16"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 32,
+        "sha256": "e75bbc2cf6f07f904955d9b4dfb6d8552687faed1d98be1f064d8b071a976186"
+      },
+      "prediction": "dragon follows the colorful book",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "afcd3895a6c70f5d6c0b2995904c3943467632e0d897baf05d3bfe15998a5681"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "d065fc1b3981adb41c585396076459e0b563aee441420a0dcbc46e9ffe272857"
+      },
+      "prediction": "37.89",
+      "correct": true,
+      "method": "unit_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "b0029116cfbc6bf278151a39a95e1c4a3b4ff62d307f9d24c446cbe95afd7e26"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 5,
+        "sha256": "77eb95b7f215142d12b91d70c5d8be5d587c975d9e3f42e0724b0dca7e4e0766"
+      },
+      "prediction": "37.11",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "0183c4714fb084d239eecc4025b469f9de2bf87215566b72be79fbc88b009693"
+      },
+      "task_type": "gravity_physics",
+      "answer": {
+        "length": 6,
+        "sha256": "167213155df7d545ad2e60a50de88f5f052d298376a6458af9c4fd49bfdd3bc2"
+      },
+      "prediction": "124.02",
+      "correct": true,
+      "method": "gravity_interval"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "767c560dd09f2201880b94020f89bf623a8d48a3ef59c5548a2bab95853d97bd"
+      },
+      "task_type": "text_cipher",
+      "answer": {
+        "length": 33,
+        "sha256": "1565ab75ffbe608e44e83c56ccbc89ca5770c43073bd336a4b9c54bc3b28bffc"
+      },
+      "prediction": "dragon imagines the dark treasure",
+      "correct": true,
+      "method": "cipher_vocab_backtrack"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "419acb74075f33e93dc1325d13176655efeb54ba328254c9b083a6bba05d26b8"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "2c52992d226ea044bea94a777b2ad7bb83b70889ef92b5929c253bde3fb228f9"
+      },
+      "prediction": "01111110",
+      "correct": true,
+      "method": "bit_global_binary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "316e20b026f0859400ba58752042421953d8d031a8a4caa527b24547b970572e"
+      },
+      "task_type": "bit_manipulation",
+      "answer": {
+        "length": 8,
+        "sha256": "1dc6865af0755579bce4b2e1d4868cdedba41890e63b06a1f933551796115ae7"
+      },
+      "prediction": "00001111",
+      "correct": true,
+      "method": "bit_global_binary"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "6edcbbe515e0fcf41939e4419bd1fd1ba19102df76941d8540a27dca0dc66e67"
+      },
+      "task_type": "unit_conversion",
+      "answer": {
+        "length": 5,
+        "sha256": "7f49181e3750528a456442139f2b48eea0eea61fbd5265391c9b4e0724bd7dab"
+      },
+      "prediction": "29.15",
+      "correct": true,
+      "method": "unit_interval"
+    }
+  ],
+  "cipher_vocab_size": 77
+}

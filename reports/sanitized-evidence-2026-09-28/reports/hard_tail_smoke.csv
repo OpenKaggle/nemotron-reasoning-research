@@ -1,0 +1,2 @@
+row_index,source,task_type,method,hard_tail_score,mean_logprob,min_logprob,worst_context,quality_flags,manifest_match
+1,<text:27>,<text:15>,<text:18>,-19.215456008911133,-0.223429337143898,-19.215456008911133,<text:55>,<text:17>,

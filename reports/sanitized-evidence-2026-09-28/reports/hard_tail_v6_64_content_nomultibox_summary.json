@@ -1,0 +1,639 @@
+{
+  "audit_rows": 39,
+  "selected_rows": 32,
+  "holdout_rows": 7,
+  "score": {
+    "min": -17.906864166259766,
+    "p01": -17.896886672973633,
+    "p05": -17.682287216186523,
+    "p50": -13.514715194702148,
+    "mean": -12.421953678131104
+  },
+  "selected_by_task_type": {
+    "bit_manipulation": 7,
+    "unit_conversion": 7,
+    "text_cipher": 5,
+    "gravity_physics": 5,
+    "numeral_system": 5,
+    "symbolic_equation": 2,
+    "unknown": 1
+  },
+  "selected_by_source": {
+    "oracle": 14,
+    "srivath": 11,
+    "donald": 3,
+    "llkh0a": 3,
+    "bankoglu": 1
+  },
+  "selected_quality_flags": {
+    "prompt_match": 32,
+    "source_answer_match": 32,
+    "final_boxed_match": 18,
+    "boxed_appended": 14
+  },
+  "selected_worst_tokens": {
+    "count": 20
+  },
+  "worst_selected_rows": [
+    {
+      "id": {
+        "length": 8,
+        "sha256": "8da5ef73b0f47f03874175bfe97b3b92bea6c5fb63ab345b197201ccf147b143"
+      },
+      "source": "donald",
+      "task_type": "bit_manipulation",
+      "method": "donald_solvers_bit_manipulation",
+      "score": -17.906864166259766,
+      "mean_logprob": -0.4441283643245697,
+      "worst_token_text": {
+        "length": 4,
+        "sha256": "093f59843b2a3d25162b5212de685c321daf44b0a03fe6e522ee61592913cdf1"
+      },
+      "worst_context": {
+        "length": 42,
+        "sha256": "9d21272daa234c7ab90a7dc86b3347a2bbc1ca01470928cbeb86e6fc016a0a15"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "c35942f6801851d59d5d83399ebd9fa27770e68f233881eb27e6d188a2af134f"
+      },
+      "source": "donald",
+      "task_type": "bit_manipulation",
+      "method": "donald_solvers_bit_manipulation",
+      "score": -17.66025161743164,
+      "mean_logprob": -0.4191890358924866,
+      "worst_token_text": {
+        "length": 4,
+        "sha256": "093f59843b2a3d25162b5212de685c321daf44b0a03fe6e522ee61592913cdf1"
+      },
+      "worst_context": {
+        "length": 42,
+        "sha256": "9d21272daa234c7ab90a7dc86b3347a2bbc1ca01470928cbeb86e6fc016a0a15"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "6b1f9bea032219de9fe9f2e8caee64a88706756a5e994fdb31ed6c13388375a3"
+      },
+      "source": "donald",
+      "task_type": "bit_manipulation",
+      "method": "donald_solvers_bit_manipulation",
+      "score": -17.418724060058594,
+      "mean_logprob": -0.46324577927589417,
+      "worst_token_text": {
+        "length": 4,
+        "sha256": "093f59843b2a3d25162b5212de685c321daf44b0a03fe6e522ee61592913cdf1"
+      },
+      "worst_context": {
+        "length": 42,
+        "sha256": "9d21272daa234c7ab90a7dc86b3347a2bbc1ca01470928cbeb86e6fc016a0a15"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "f6ff7da9371f040c27e115902d47739584cf4b29a209162994b4f352a7dba261"
+      },
+      "source": "oracle",
+      "task_type": "unit_conversion",
+      "method": "unit_interval",
+      "score": -16.990978240966797,
+      "mean_logprob": -1.5636026859283447,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "62505cc44284f3d6e2b10aa075adc96d11ce353ce7f3192fb7516c8e1d938882"
+      },
+      "worst_context": {
+        "length": 73,
+        "sha256": "58e62436765676a4252248d432d85f50fb14242c5be73bd8cdd26431073448ae"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "aef849d800865d636e5695f17845e2d6785651a82834a707a715fea14d6b1f8b"
+      },
+      "source": "oracle",
+      "task_type": "unit_conversion",
+      "method": "unit_interval",
+      "score": -16.49616241455078,
+      "mean_logprob": -1.5268524885177612,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "62505cc44284f3d6e2b10aa075adc96d11ce353ce7f3192fb7516c8e1d938882"
+      },
+      "worst_context": {
+        "length": 73,
+        "sha256": "58e62436765676a4252248d432d85f50fb14242c5be73bd8cdd26431073448ae"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "17515641db78476e21caf20e93f4e4aa7b870df4e04147f40383637320cbcbf5"
+      },
+      "source": "oracle",
+      "task_type": "unit_conversion",
+      "method": "unit_interval",
+      "score": -16.250303268432617,
+      "mean_logprob": -1.5095720291137695,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "62505cc44284f3d6e2b10aa075adc96d11ce353ce7f3192fb7516c8e1d938882"
+      },
+      "worst_context": {
+        "length": 73,
+        "sha256": "58e62436765676a4252248d432d85f50fb14242c5be73bd8cdd26431073448ae"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "e19ffbcbb76829e5d47dcbfc4154295b9a954f1a334478be5b8da63aa59d4358"
+      },
+      "source": "llkh0a",
+      "task_type": "text_cipher",
+      "method": "llkh0a_formatted",
+      "score": -16.033273696899414,
+      "mean_logprob": -0.26419657468795776,
+      "worst_token_text": {
+        "length": 3,
+        "sha256": "947a501ab5edae4e7212a15afc4cd19f5c91814571738a98d3e47d22a265207f"
+      },
+      "worst_context": {
+        "length": 63,
+        "sha256": "8ce0ef27a2c67cde31bc5ed5a308975a215869afc78ec91ba604817f01b3d457"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "b8c24d7d789705b1935ac5d8cb84697f98cc2ad396d8104a960c649876c55b1b"
+      },
+      "source": "oracle",
+      "task_type": "gravity_physics",
+      "method": "gravity_interval",
+      "score": -15.690279960632324,
+      "mean_logprob": -1.3347944021224976,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "62505cc44284f3d6e2b10aa075adc96d11ce353ce7f3192fb7516c8e1d938882"
+      },
+      "worst_context": {
+        "length": 56,
+        "sha256": "f0d53105e743a638e3a23d2d5905347e5e29c8f408de3cc8d9befef60db3829c"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "5d31b0de409967a9ac670abbbf3ddbde0b19909dd88923de912d173446546190"
+      },
+      "source": "srivath",
+      "task_type": "text_cipher",
+      "method": "srivath_enriched",
+      "score": -14.91523551940918,
+      "mean_logprob": -0.6606926918029785,
+      "worst_token_text": {
+        "length": 10,
+        "sha256": "021a9e0a64b764390561b615090f9a4bb07a55cc4e1cbd1145d87f6aa0f8bfd9"
+      },
+      "worst_context": {
+        "length": 74,
+        "sha256": "1271abff6a1414cb0409c44111c2b39fc38140b6889108b38f2684d8c2d9b257"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "f1fe8d03f5ccc8536d2399de1866d9841883e669a50e18d84c20ad7d364f37d7"
+      },
+      "source": "llkh0a",
+      "task_type": "unknown",
+      "method": "llkh0a_formatted",
+      "score": -13.904645919799805,
+      "mean_logprob": -0.6679746508598328,
+      "worst_token_text": {
+        "length": 6,
+        "sha256": "8b7cafc7423d6b7007d16d508c93e006f83a002fdc4688a73a220f229f8a5879"
+      },
+      "worst_context": {
+        "length": 75,
+        "sha256": "a2b0b277b24b2891e16c42ead1bd2db16c08920f234edad69821b087e6f2e1d1"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "265ee4f254317e7a6d09c4be9bdad5a6159bc4b8b59798d506169cef5066c5d2"
+      },
+      "source": "bankoglu",
+      "task_type": "bit_manipulation",
+      "method": "bankoglu_hard_families",
+      "score": -13.895113945007324,
+      "mean_logprob": -0.7426689863204956,
+      "worst_token_text": {
+        "length": 7,
+        "sha256": "7949c0b6c361616b990941461ebd97abdeab4495d8fd1b3a00d187df793c833a"
+      },
+      "worst_context": {
+        "length": 68,
+        "sha256": "fa48be820546f836b0de00fd764f10857a585bc40c72530f63aa1d848bca9899"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "14b3f5358c2ac7ce5b25a28244b3bc60a768a1e415432cdd88eb28ef9275d477"
+      },
+      "source": "oracle",
+      "task_type": "symbolic_equation",
+      "method": "equation_numeric_deduce",
+      "score": -13.80191421508789,
+      "mean_logprob": -2.8787004947662354,
+      "worst_token_text": {
+        "length": 2,
+        "sha256": "296d71a7f66e75b751c597094536329dcf2cf484f83e475d91f7aea1ff4c9738"
+      },
+      "worst_context": {
+        "length": 49,
+        "sha256": "3dff505bcb2aa2fc211dc54dd26271bf616353a6de25a8b8d9a93ea583b3e9d6"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "2717f03b42d960f1d411a9acb040e6759f2ca7479931f379109f50bf23316381"
+      },
+      "source": "llkh0a",
+      "task_type": "gravity_physics",
+      "method": "llkh0a_formatted",
+      "score": -13.750113487243652,
+      "mean_logprob": -0.36367589235305786,
+      "worst_token_text": {
+        "length": 2,
+        "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+      },
+      "worst_context": {
+        "length": 29,
+        "sha256": "27250fd624a040d35f80bf0490151b0655f3d5c932579cb6dafe5cc35a7534ed"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "9a6632ba835d8addd47ed38499b37f27c4fb58a79540306948754fe162b6b02d"
+      },
+      "source": "oracle",
+      "task_type": "text_cipher",
+      "method": "cipher_vocab_backtrack",
+      "score": -13.690595626831055,
+      "mean_logprob": -1.6389927864074707,
+      "worst_token_text": {
+        "length": 5,
+        "sha256": "2629c2a318f09f3ce887b4aa91c2f322e850ca8626ce30ba5391909b12b8b670"
+      },
+      "worst_context": {
+        "length": 71,
+        "sha256": "454c5faf71251552b94e478bcac477d0e1b67f5bc89e51d26dc6e7fe9755f5b8"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "e6a92187309eb81011ba4ed3c258eb7814660416ae46a9d94b8657c01397f4c2"
+      },
+      "source": "srivath",
+      "task_type": "numeral_system",
+      "method": "srivath_enriched",
+      "score": -13.447471618652344,
+      "mean_logprob": -0.8666399717330933,
+      "worst_token_text": {
+        "length": 1,
+        "sha256": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881"
+      },
+      "worst_context": {
+        "length": 34,
+        "sha256": "6b134fcfcfbb9eef983aea649acaaf53957ee0d3a52c88cf0c90b9f7a542e645"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "543aaf85a8f27922c2b8531173676d2b76e5a0001b461a7cfed7642330bd187a"
+      },
+      "source": "oracle",
+      "task_type": "text_cipher",
+      "method": "cipher_vocab_backtrack",
+      "score": -13.427791595458984,
+      "mean_logprob": -2.200313091278076,
+      "worst_token_text": {
+        "length": 5,
+        "sha256": "2629c2a318f09f3ce887b4aa91c2f322e850ca8626ce30ba5391909b12b8b670"
+      },
+      "worst_context": {
+        "length": 61,
+        "sha256": "dc7e51e9972d49f9ad47d77a7d05b6d48c3375d2f43ec7cefe972cda062ac9c9"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "8404552c0ed9de09f2652148d5fdf75ce3b8d190d5fe7c8e467f56c5c7fade08"
+      },
+      "source": "oracle",
+      "task_type": "text_cipher",
+      "method": "cipher_vocab_backtrack",
+      "score": -12.95703125,
+      "mean_logprob": -1.7759124040603638,
+      "worst_token_text": {
+        "length": 5,
+        "sha256": "2629c2a318f09f3ce887b4aa91c2f322e850ca8626ce30ba5391909b12b8b670"
+      },
+      "worst_context": {
+        "length": 61,
+        "sha256": "1fc14238478fbb945c1a4f4542ab19df087919fccdaaa7367b5e07a3d79da255"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "3af00c7a9ac782b75a706e1b63daf9ccde4682b5ca09829dd3da1028adf39818"
+      },
+      "source": "srivath",
+      "task_type": "bit_manipulation",
+      "method": "srivath_enriched",
+      "score": -12.954246520996094,
+      "mean_logprob": -0.86918044090271,
+      "worst_token_text": {
+        "length": 1,
+        "sha256": "a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa"
+      },
+      "worst_context": {
+        "length": 53,
+        "sha256": "080c0f96bf9df28535080dc0bce1f0f580348112887fab91f40e13372b7e92fd"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "9b58f3aaebee4b44aff345697f73e28f60179a3900af52b8f848ed93a5aad73d"
+      },
+      "source": "oracle",
+      "task_type": "bit_manipulation",
+      "method": "bit_global_ternary",
+      "score": -12.922282218933105,
+      "mean_logprob": -1.8233850002288818,
+      "worst_token_text": {
+        "length": 1,
+        "sha256": "8ce86a6ae65d3692e7305e2c58ac62eebd97d3d943e093f577da25c36988246b"
+      },
+      "worst_context": {
+        "length": 37,
+        "sha256": "57ed9894ba3646b0d2df661f3d23b063e4190ec19576c45b57a93f949096f720"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "5ba9aab6baf48cb05e1a459a553c990656c415311daf1d8d5713219aabf6de39"
+      },
+      "source": "srivath",
+      "task_type": "unit_conversion",
+      "method": "srivath_enriched",
+      "score": -11.375064849853516,
+      "mean_logprob": -1.174195408821106,
+      "worst_token_text": {
+        "length": 2,
+        "sha256": "4f5a2ada1166172aa1744ca79a54e169d0a38da140fd0e02c6b0c68a4efbca90"
+      },
+      "worst_context": {
+        "length": 21,
+        "sha256": "8e17d3a66fa237b21f05c3a626b63d90ee37df9349f4c77e4f70e77cf4d77c86"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "eed0dd7c88fc63299f531cf99889db5e4da15f99db4cc8b4d4f824b9926296d9"
+      },
+      "source": "srivath",
+      "task_type": "unit_conversion",
+      "method": "srivath_enriched",
+      "score": -11.250110626220703,
+      "mean_logprob": -1.1622017621994019,
+      "worst_token_text": {
+        "length": 2,
+        "sha256": "4f5a2ada1166172aa1744ca79a54e169d0a38da140fd0e02c6b0c68a4efbca90"
+      },
+      "worst_context": {
+        "length": 21,
+        "sha256": "90bb08b1329c98c7bd71469e7abd3abd1c6652496df9e258643528729395b608"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "610acf7801250186a8b242a2c385c76d84d9d75081f893954ad8a195593182a9"
+      },
+      "source": "srivath",
+      "task_type": "unit_conversion",
+      "method": "srivath_enriched",
+      "score": -10.086837768554688,
+      "mean_logprob": -0.8939053416252136,
+      "worst_token_text": {
+        "length": 6,
+        "sha256": "f7a371f456dacbed6464f00b52a042b3de1373068287f6174bf9390075cf52bf"
+      },
+      "worst_context": {
+        "length": 67,
+        "sha256": "bc636b117204f7a90ec269af2c754043ff3fdc2c99ac7df9d67b249f9e4e646a"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "0e1ebfa8805218aafc9e14deffa5c2f83b330c474d7eef02ced0f25f98ad0e8c"
+      },
+      "source": "srivath",
+      "task_type": "symbolic_equation",
+      "method": "srivath_enriched",
+      "score": -9.642480850219727,
+      "mean_logprob": -1.393739104270935,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "30b725d114a40d2877bf4b94f8202fbff6c0def25b96f6c109c20b4f9182b359"
+      },
+      "worst_context": {
+        "length": 69,
+        "sha256": "4070766f8efc9f5ad005e918245ef3e8ec99601bfe7fd1d8b33f5759785313f2"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "5bb26bbb38d2dc67a03e5a56129286942235035393bf267b435a087c59d5a0fb"
+      },
+      "source": "oracle",
+      "task_type": "bit_manipulation",
+      "method": "bit_global_binary",
+      "score": -9.375126838684082,
+      "mean_logprob": -1.4410308599472046,
+      "worst_token_text": {
+        "length": 6,
+        "sha256": "978354db0c00fc78c3a5524f462a73bc425df3fb2767e51a5f46352ae26ae6f9"
+      },
+      "worst_context": {
+        "length": 32,
+        "sha256": "f25e596b966a8dd4903e9abc27d6ed53be837cd4b9691902472fa902b41adc67"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "075741b65eec8dd0e0a56f58c272560300e4c571615098b69b7c0881c56016d9"
+      },
+      "source": "srivath",
+      "task_type": "unit_conversion",
+      "method": "srivath_enriched",
+      "score": -9.306305885314941,
+      "mean_logprob": -0.9388543963432312,
+      "worst_token_text": {
+        "length": 11,
+        "sha256": "0278682ffb8e20731ff59be34c2904db260713ab63c683c3fd63fc8dfa63edea"
+      },
+      "worst_context": {
+        "length": 60,
+        "sha256": "fa8613c5e70f311b059f4d48b22fe8a531696f115c494e2e8d60c27b2fda2b0b"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "8520676da42e08ceea65c46184c0888655671b91d232cc4f469d9f464c9135ef"
+      },
+      "source": "srivath",
+      "task_type": "gravity_physics",
+      "method": "srivath_enriched",
+      "score": -8.926613807678223,
+      "mean_logprob": -0.9332993626594543,
+      "worst_token_text": {
+        "length": 3,
+        "sha256": "b344d80e24a3679999fa964450b34bc24d1578a35509f934c1418b0a20d21a67"
+      },
+      "worst_context": {
+        "length": 72,
+        "sha256": "7080f352425a35ae53685b33c7f09aaadffb2fb08ede03ce7165a5c48a55666f"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "48c3343a052f4f1a2ec25995c328c4cfe3fbcd41191449beceea2cbdc81c282a"
+      },
+      "source": "srivath",
+      "task_type": "gravity_physics",
+      "method": "srivath_enriched",
+      "score": -8.307204246520996,
+      "mean_logprob": -0.8826720714569092,
+      "worst_token_text": {
+        "length": 3,
+        "sha256": "b344d80e24a3679999fa964450b34bc24d1578a35509f934c1418b0a20d21a67"
+      },
+      "worst_context": {
+        "length": 72,
+        "sha256": "7080f352425a35ae53685b33c7f09aaadffb2fb08ede03ce7165a5c48a55666f"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "1311b7c5ac0a21d86db756c8ee516adf676cc6d24986782957e0503ea7463e1e"
+      },
+      "source": "srivath",
+      "task_type": "gravity_physics",
+      "method": "srivath_enriched",
+      "score": -7.772818565368652,
+      "mean_logprob": -0.8982821106910706,
+      "worst_token_text": {
+        "length": 3,
+        "sha256": "b344d80e24a3679999fa964450b34bc24d1578a35509f934c1418b0a20d21a67"
+      },
+      "worst_context": {
+        "length": 72,
+        "sha256": "7080f352425a35ae53685b33c7f09aaadffb2fb08ede03ce7165a5c48a55666f"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "29cb710c7f2d8a93b895671397d52d614466344297e64b71f67721d0e91d1ae3"
+      },
+      "source": "oracle",
+      "task_type": "numeral_system",
+      "method": "roman_forward",
+      "score": -4.807003974914551,
+      "mean_logprob": -0.5104507803916931,
+      "worst_token_text": {
+        "length": 3,
+        "sha256": "239364a236b9b33328437f0431d4e87d6fcd182989053f86287b400e5bdcdf80"
+      },
+      "worst_context": {
+        "length": 47,
+        "sha256": "c4334eeeaf3a9dc2e69f6118d40e5d30cfe76b674af7bf00bf7e71e8a7663828"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "bc3603681e83ae69d2fe77ab556f6169b22f99be7d42e5e231e35c5729de806e"
+      },
+      "source": "oracle",
+      "task_type": "numeral_system",
+      "method": "roman_forward",
+      "score": -4.578738689422607,
+      "mean_logprob": -0.5168395042419434,
+      "worst_token_text": {
+        "length": 5,
+        "sha256": "f4ed8fa656b74c5ddf5a54eca0f9aa9629d6c192225a85a5a0abb1a607285523"
+      },
+      "worst_context": {
+        "length": 48,
+        "sha256": "7c4f0a6637367bb5d8e30b8214916091a6157735eab965b16d476134dbfeddc5"
+      },
+      "manifest_match": "strict"
+    }
+  ]
+}

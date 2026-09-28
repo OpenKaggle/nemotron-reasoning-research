@@ -1,0 +1,67 @@
+{
+  "summary": "reports/hard_tail_smoke_summary.json",
+  "chosen_path": {
+    "length": 17,
+    "sha256": "e753f3b3d26609c6630da51063c9720d1d6c95072e317a4fe9a871f6e77b97f1"
+  },
+  "recommendation": {
+    "length": 130,
+    "sha256": "f0a8bec85c3042d584b5464a43a25490f728d69001963e66a93974e239cf3bcc"
+  },
+  "next_step": {
+    "length": 130,
+    "sha256": "f0a8bec85c3042d584b5464a43a25490f728d69001963e66a93974e239cf3bcc"
+  },
+  "scores": {
+    "symbolic_operator": {
+      "score": 2.05,
+      "evidence": {
+        "task_rows": 1,
+        "context_hits": 3,
+        "top_tasks": [
+          [
+            "huikang_14class",
+            1
+          ]
+        ]
+      }
+    },
+    "bit_repair": {
+      "score": 0.0,
+      "evidence": {
+        "task_rows": 0,
+        "source_rows": 0,
+        "context_hits": 0,
+        "top_sources": [
+          [
+            "nemo_jsonl:nemo_valid.jsonl",
+            1
+          ]
+        ]
+      }
+    },
+    "formatting_repair": {
+      "score": 0.0,
+      "evidence": {
+        "quality_flag_rows": 0,
+        "context_hits": 0,
+        "top_flags": [
+          [
+            "pretokenized_nemo",
+            1
+          ]
+        ],
+        "top_tokens": {
+          "count": 1
+        }
+      }
+    },
+    "adapter_arithmetic": {
+      "score": 0.05,
+      "evidence": {
+        "reason": "Fallback only when no task-family or formatting tail dominates.",
+        "selected_rows": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "audit_rows": 1,
+  "selected_rows": 1,
+  "holdout_rows": 0,
+  "score": {
+    "min": -19.215456008911133,
+    "p01": -19.215456008911133,
+    "p05": -19.215456008911133,
+    "p50": -19.215456008911133,
+    "mean": -19.215456008911133
+  },
+  "selected_by_task_type": {
+    "huikang_14class": 1
+  },
+  "selected_by_source": {
+    "nemo_jsonl:nemo_valid.jsonl": 1
+  },
+  "selected_quality_flags": {
+    "pretokenized_nemo": 1
+  },
+  "selected_worst_tokens": {
+    "count": 1
+  },
+  "worst_selected_rows": [
+    {
+      "id": {
+        "length": 8,
+        "sha256": "86080e6b857eb8c12472e8acf0c8578e17fb05d1160e00d67e88d20e5fd540c3"
+      },
+      "source": "nemo_jsonl:nemo_valid.jsonl",
+      "task_type": "huikang_14class",
+      "method": "nemo_pre_tokenized",
+      "min_logprob": -19.215456008911133,
+      "mean_logprob": -0.223429337143898,
+      "worst_token_text": {
+        "length": 2,
+        "sha256": "b8edd11ad54f9bf0aa66fb09b25d424ac5b122bbb84c2bcbf4c5d5ae4656dbc0"
+      },
+      "worst_context": {
+        "length": 55,
+        "sha256": "124fa3287342110e4b5d6c166601940b15a8252e3932425cfa06aa2c7685221f"
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "summary": "reports/hard_tail_v6_64_content_nomultibox_summary.json",
+  "chosen_path": {
+    "length": 16,
+    "sha256": "33a0f3c46cedd92a6bfe0fcd993f096fc1c33cf3c64f4b7ef6f6d7162f687459"
+  },
+  "recommendation": "Do not train yet; inspect worst contexts and expand the audit slice until one repair path dominates.",
+  "next_step": "Do not train yet; inspect worst contexts and expand the audit slice until one repair path dominates.",
+  "scores": {
+    "symbolic_operator": {
+      "score": 0.3075,
+      "evidence": {
+        "task_rows": 2,
+        "context_hits": 21,
+        "top_tasks": [
+          [
+            "bit_manipulation",
+            7
+          ],
+          [
+            "unit_conversion",
+            7
+          ],
+          [
+            "text_cipher",
+            5
+          ],
+          [
+            "gravity_physics",
+            5
+          ],
+          [
+            "numeral_system",
+            5
+          ]
+        ]
+      }
+    },
+    "bit_repair": {
+      "score": 0.35510416666666667,
+      "evidence": {
+        "task_rows": 7,
+        "source_rows": 7,
+        "context_hits": 7,
+        "top_sources": [
+          [
+            "oracle",
+            14
+          ],
+          [
+            "srivath",
+            11
+          ],
+          [
+            "donald",
+            3
+          ],
+          [
+            "llkh0a",
+            3
+          ],
+          [
+            "bankoglu",
+            1
+          ]
+        ]
+      }
+    },
+    "formatting_repair": {
+      "score": 0.27875,
+      "evidence": {
+        "quality_flag_rows": 14,
+        "context_hits": 3,
+        "top_flags": [
+          [
+            "prompt_match",
+            32
+          ],
+          [
+            "source_answer_match",
+            32
+          ],
+          [
+            "final_boxed_match",
+            18
+          ],
+          [
+            "boxed_appended",
+            14
+          ]
+        ],
+        "top_tokens": {
+          "count": 8
+        }
+      }
+    },
+    "adapter_arithmetic": {
+      "score": 0.05,
+      "evidence": {
+        "reason": "Fallback only when no task-family or formatting tail dominates.",
+        "selected_rows": 32
+      }
+    }
+  }
+}

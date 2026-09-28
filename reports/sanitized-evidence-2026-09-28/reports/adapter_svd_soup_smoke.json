@@ -1,0 +1,63 @@
+{
+  "adapters": [
+    {
+      "name": "kienngx",
+      "source": "submissions/kienngx_root",
+      "weight": 0.5
+    },
+    {
+      "name": "hammad",
+      "source": "submissions/hammadfarooq470__agi-for-medal-0-87/submission.zip",
+      "weight": 0.5
+    }
+  ],
+  "anchor": "kienngx",
+  "target_rank": 32,
+  "target_alpha": 32.0,
+  "target_scale": 1.0,
+  "shape_policy": "anchor-copy",
+  "num_anchor_pairs": 2,
+  "actions": {
+    "svd": 1,
+    "anchor_copy": 1,
+    "skipped": 0,
+    "error": 0
+  },
+  "errors": [],
+  "modules": [
+    {
+      "module": "base_model.model.model.layers.0.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.0.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.0.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.0.mixer.out_proj",
+      "a_key": "base_model.model.model.layers.0.mixer.out_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.0.mixer.out_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        4096
+      ],
+      "anchor_b_shape": [
+        2688,
+        32
+      ],
+      "status": "compatible",
+      "action": "svd",
+      "incompatible_adapters": []
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "summary": "reports/hard_tail_v5_64_diagnostic_summary.json",
+  "chosen_path": {
+    "length": 17,
+    "sha256": "1b94272e0a5fe5cc626e623da740084626a9f9493a4c938e51f05eb3da0ea041"
+  },
+  "recommendation": "Use shorter traces or boxed-region/final-answer loss; do not add new reasoning data until formatting tail is reduced.",
+  "next_step": "Use shorter traces or boxed-region/final-answer loss; do not add new reasoning data until formatting tail is reduced.",
+  "scores": {
+    "symbolic_operator": {
+      "score": 0.40315789473684205,
+      "evidence": {
+        "task_rows": 15,
+        "context_hits": 12,
+        "top_tasks": [
+          [
+            "symbolic_equation",
+            15
+          ],
+          [
+            "bit_manipulation",
+            15
+          ],
+          [
+            "text_cipher",
+            9
+          ],
+          [
+            "unit_conversion",
+            7
+          ],
+          [
+            "gravity_physics",
+            5
+          ]
+        ]
+      }
+    },
+    "bit_repair": {
+      "score": 0.4675438596491228,
+      "evidence": {
+        "task_rows": 15,
+        "source_rows": 20,
+        "context_hits": 10,
+        "top_sources": [
+          [
+            "oracle",
+            15
+          ],
+          [
+            "llkh0a",
+            12
+          ],
+          [
+            "sybyrr_beta",
+            11
+          ],
+          [
+            "srivath",
+            11
+          ],
+          [
+            "donald",
+            4
+          ]
+        ]
+      }
+    },
+    "formatting_repair": {
+      "score": 0.7933333333333332,
+      "evidence": {
+        "quality_flag_rows": 38,
+        "context_hits": 23,
+        "top_flags": [
+          [
+            "source_answer_match",
+            57
+          ],
+          [
+            "prompt_match",
+            57
+          ],
+          [
+            "final_boxed_match",
+            42
+          ],
+          [
+            "multiple_boxed",
+            23
+          ],
+          [
+            "boxed_appended",
+            15
+          ]
+        ],
+        "top_tokens": {
+          "count": 8
+        }
+      }
+    },
+    "adapter_arithmetic": {
+      "score": 0.05,
+      "evidence": {
+        "reason": "Fallback only when no task-family or formatting tail dominates.",
+        "selected_rows": 57
+      }
+    }
+  }
+}

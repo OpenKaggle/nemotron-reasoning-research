@@ -1,0 +1,106 @@
+{
+  "rows": {
+    "train": 9500,
+    "test_sample": 3
+  },
+  "columns": {
+    "train": [
+      "id",
+      "prompt",
+      "answer",
+      "task_type",
+      "answer_type"
+    ],
+    "test": [
+      "id",
+      "prompt",
+      "task_type"
+    ]
+  },
+  "overlap": {
+    "test_ids_in_train": 3,
+    "test_prompts_in_train": 3,
+    "test_rows": 3,
+    "all_sample_test_ids_in_train": true
+  },
+  "train_task_types": [
+    [
+      "bit_manipulation",
+      1602
+    ],
+    [
+      "gravity_physics",
+      1597
+    ],
+    [
+      "unit_conversion",
+      1594
+    ],
+    [
+      "text_cipher",
+      1576
+    ],
+    [
+      "numeral_system",
+      1576
+    ],
+    [
+      "symbolic_equation",
+      1555
+    ]
+  ],
+  "test_task_types": [
+    [
+      "bit_manipulation",
+      2
+    ],
+    [
+      "text_cipher",
+      1
+    ]
+  ],
+  "answer_types": {
+    "count": 5
+  },
+  "answer_length_top": {
+    "count": 20
+  },
+  "sample_test_matches": [
+    {
+      "id": {
+        "length": 8,
+        "sha256": "ec14a4f54b0a5e550cbfba43a39a58c95c1658a840cfbea927001bb891955bc2"
+      },
+      "same_prompt": true,
+      "answer": {
+        "length": 8,
+        "sha256": "459c2daec5458568864215c57d12fa0ae28243b080971bb90d09fe020f8f265e"
+      },
+      "task_type": "bit_manipulation"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "978644dc6678e9dc04a18f3473b8b3bd99aeda685ffecee31531ee6d8950a288"
+      },
+      "same_prompt": true,
+      "answer": {
+        "length": 8,
+        "sha256": "aca712a820047dcc3c512e34f70f041aa6d6c6e61b5515722dfc214d29a75c50"
+      },
+      "task_type": "bit_manipulation"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "08a802db550fe1e050c9fb9ba6052e3572ef9730b8a8dc6925b5a7ad51725e77"
+      },
+      "same_prompt": true,
+      "answer": {
+        "length": 17,
+        "sha256": "e549fb19fca44bf2066eaa13ac73143e58d1a6d4a2381e757d0b2e584bf66896"
+      },
+      "task_type": "text_cipher"
+    }
+  ]
+}

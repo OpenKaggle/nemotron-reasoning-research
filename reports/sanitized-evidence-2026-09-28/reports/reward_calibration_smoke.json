@@ -1,0 +1,250 @@
+{
+  "inputs": {
+    "dpo_pairs": "reports/dpo_pairs_smoke.jsonl",
+    "limit": 20,
+    "task_type": "bit_manipulation"
+  },
+  "mode": "dpo_pairs",
+  "reward_names": [
+    "verifier",
+    "sequence_correctness",
+    "banwait_composite_simple"
+  ],
+  "summary": {
+    "by_source": {
+      "bankoglu>kishanvavdara": {
+        "chosen_minus_rejected": {
+          "banwait_composite_simple": {
+            "count": 2,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "sequence_correctness": {
+            "count": 2,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "verifier": {
+            "count": 2,
+            "mean": 1.0,
+            "median": 1.0
+          }
+        },
+        "count": 2
+      },
+      "donald>kishanvavdara": {
+        "chosen_minus_rejected": {
+          "banwait_composite_simple": {
+            "count": 8,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "sequence_correctness": {
+            "count": 8,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "verifier": {
+            "count": 8,
+            "mean": 1.0,
+            "median": 1.0
+          }
+        },
+        "count": 8
+      },
+      "llkh0a>kishanvavdara": {
+        "chosen_minus_rejected": {
+          "banwait_composite_simple": {
+            "count": 2,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "sequence_correctness": {
+            "count": 2,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "verifier": {
+            "count": 2,
+            "mean": 1.0,
+            "median": 1.0
+          }
+        },
+        "count": 2
+      },
+      "oracle>kishanvavdara": {
+        "chosen_minus_rejected": {
+          "banwait_composite_simple": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "sequence_correctness": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "verifier": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0
+          }
+        },
+        "count": 1
+      },
+      "srivath>kishanvavdara": {
+        "chosen_minus_rejected": {
+          "banwait_composite_simple": {
+            "count": 2,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "sequence_correctness": {
+            "count": 2,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "verifier": {
+            "count": 2,
+            "mean": 1.0,
+            "median": 1.0
+          }
+        },
+        "count": 2
+      },
+      "tong>kishanvavdara": {
+        "chosen_minus_rejected": {
+          "banwait_composite_simple": {
+            "count": 5,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "sequence_correctness": {
+            "count": 5,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "verifier": {
+            "count": 5,
+            "mean": 1.0,
+            "median": 1.0
+          }
+        },
+        "count": 5
+      }
+    },
+    "by_task": {
+      "bit_manipulation": {
+        "chosen_minus_rejected": {
+          "banwait_composite_simple": {
+            "count": 20,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "sequence_correctness": {
+            "count": 20,
+            "mean": 1.0,
+            "median": 1.0
+          },
+          "verifier": {
+            "count": 20,
+            "mean": 1.0,
+            "median": 1.0
+          }
+        },
+        "count": 20
+      }
+    },
+    "chosen": {
+      "count": 20,
+      "exact_rate": 1.0,
+      "flags_top_counts": {
+        "answer_exact": 20,
+        "multiple_boxed": 7
+      },
+      "rewards": {
+        "banwait_composite_simple": {
+          "count": 20,
+          "mean": 1.0,
+          "median": 1.0
+        },
+        "sequence_correctness": {
+          "count": 20,
+          "mean": 1.0,
+          "median": 1.0
+        },
+        "verifier": {
+          "count": 20,
+          "mean": 1.0,
+          "median": 1.0
+        }
+      },
+      "source_counts": {
+        "bankoglu": 2,
+        "donald": 8,
+        "llkh0a": 2,
+        "oracle": 1,
+        "srivath": 2,
+        "tong": 5
+      },
+      "task_counts": {
+        "bit_manipulation": 20
+      }
+    },
+    "chosen_gt_rejected_rate": {
+      "banwait_composite_simple": 1.0,
+      "sequence_correctness": 1.0,
+      "verifier": 1.0
+    },
+    "chosen_minus_rejected": {
+      "banwait_composite_simple": {
+        "count": 20,
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "sequence_correctness": {
+        "count": 20,
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "verifier": {
+        "count": 20,
+        "mean": 1.0,
+        "median": 1.0
+      }
+    },
+    "pair_count": 20,
+    "rejected": {
+      "count": 20,
+      "exact_rate": 0.0,
+      "flags_top_counts": {
+        "missing_extracted_answer": 20,
+        "missing_final": 20,
+        "wrong_final": 20
+      },
+      "rewards": {
+        "banwait_composite_simple": {
+          "count": 20,
+          "mean": 0.0,
+          "median": 0.0
+        },
+        "sequence_correctness": {
+          "count": 20,
+          "mean": 0.0,
+          "median": 0.0
+        },
+        "verifier": {
+          "count": 20,
+          "mean": 0.0,
+          "median": 0.0
+        }
+      },
+      "source_counts": {
+        "kishanvavdara": 20
+      },
+      "task_counts": {
+        "bit_manipulation": 20
+      }
+    }
+  }
+}

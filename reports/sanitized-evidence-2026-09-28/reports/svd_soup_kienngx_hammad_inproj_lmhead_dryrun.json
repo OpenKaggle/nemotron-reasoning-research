@@ -1,0 +1,461 @@
+{
+  "adapters": [
+    {
+      "name": "anchor",
+      "source": "<redacted-path>",
+      "weight": 1.0
+    },
+    {
+      "name": "hammad",
+      "source": "<redacted-path>",
+      "weight": 0.15
+    }
+  ],
+  "anchor": "anchor",
+  "target_rank": 32,
+  "target_alpha": 32.0,
+  "target_scale": 1.0,
+  "shape_policy": "anchor-copy",
+  "num_anchor_pairs": 24,
+  "actions": {
+    "svd": 0,
+    "anchor_copy": 24,
+    "skipped": 0,
+    "error": 0
+  },
+  "errors": [],
+  "modules": [
+    {
+      "module": "base_model.model.lm_head",
+      "a_key": "base_model.model.lm_head.lora_A.weight",
+      "b_key": "base_model.model.lm_head.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        131072,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.0.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.0.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.0.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.11.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.11.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.11.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.14.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.14.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.14.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.16.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.16.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.16.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.18.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.18.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.18.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.2.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.2.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.2.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.21.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.21.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.21.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.23.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.23.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.23.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.25.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.25.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.25.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.28.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.28.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.28.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.30.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.30.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.30.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.32.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.32.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.32.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.35.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.35.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.35.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.37.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.37.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.37.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.39.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.39.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.39.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.4.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.4.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.4.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.41.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.41.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.41.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.44.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.44.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.44.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.46.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.46.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.46.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.48.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.48.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.48.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.50.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.50.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.50.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.7.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.7.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.7.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    },
+    {
+      "module": "base_model.model.model.layers.9.mixer.in_proj",
+      "a_key": "base_model.model.model.layers.9.mixer.in_proj.lora_A.weight",
+      "b_key": "base_model.model.model.layers.9.mixer.in_proj.lora_B.weight",
+      "anchor_a_shape": [
+        32,
+        2688
+      ],
+      "anchor_b_shape": [
+        10304,
+        32
+      ],
+      "status": "incompatible",
+      "action": "anchor_copy",
+      "incompatible_adapters": [
+        "hammad"
+      ]
+    }
+  ]
+}

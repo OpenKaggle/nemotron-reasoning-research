@@ -1,0 +1,236 @@
+{
+  "output": {
+    "length": 78,
+    "sha256": "0b7efc1986cdfb369465b00cb0e141967a0f3c8e43aa8596683d99cd7bfa7921"
+  },
+  "seed": 20260606,
+  "include_disabled": false,
+  "rows": 1356,
+  "canonical_fields": [
+    "id",
+    "source",
+    "task_type",
+    "prompt",
+    "answer",
+    "completion",
+    "method",
+    "quality_flags"
+  ],
+  "by_source": {
+    "oracle": 360,
+    "llkh0a": 280,
+    "sybyrr_beta": 240,
+    "donald": 180,
+    "srivath": 120,
+    "bankoglu": 96,
+    "tong": 80
+  },
+  "by_task_type": {
+    "bit_manipulation": 526,
+    "symbolic_equation": 340,
+    "text_cipher": 185,
+    "unit_conversion": 112,
+    "numeral_system": 96,
+    "gravity_physics": 82,
+    "unknown": 15
+  },
+  "quality_flags": {
+    "prompt_match": 1356,
+    "source_answer_match": 1356,
+    "final_boxed_match": 1056,
+    "multiple_boxed": 528,
+    "boxed_appended": 300
+  },
+  "sources": {
+    "bankoglu": {
+      "path": {
+        "length": 101,
+        "sha256": "cce2d778d1253d93ef8e4b619c0b2c333b7dd36389b483b3c86c1da66c9445d3"
+      },
+      "target": 96,
+      "exists": true,
+      "raw_rows": 987,
+      "train_joined": 987,
+      "prompt_match": 987,
+      "source_answer_match": 987,
+      "boxed_checked": 987,
+      "boxed_match": 987,
+      "boxed_mismatch": 0,
+      "boxed_appended": 0,
+      "oracle_true": 0,
+      "enabled_pre_sample": 987,
+      "sampled": 96,
+      "filter_flags": {},
+      "sampled_quality_flags": {
+        "prompt_match": 96,
+        "source_answer_match": 96,
+        "final_boxed_match": 96
+      }
+    },
+    "donald": {
+      "path": {
+        "length": 123,
+        "sha256": "78847b6aa15761488eb252ad2fbcf313db0d0930ec74dd3147ec939bd8897c8b"
+      },
+      "target": 180,
+      "exists": true,
+      "raw_rows": 1595,
+      "train_joined": 1595,
+      "prompt_match": 1595,
+      "source_answer_match": 1595,
+      "boxed_checked": 0,
+      "boxed_match": 0,
+      "boxed_mismatch": 0,
+      "boxed_appended": 1595,
+      "oracle_true": 0,
+      "enabled_pre_sample": 1595,
+      "sampled": 180,
+      "filter_flags": {},
+      "sampled_quality_flags": {
+        "prompt_match": 180,
+        "source_answer_match": 180,
+        "boxed_appended": 180
+      }
+    },
+    "llkh0a": {
+      "path": {
+        "length": 151,
+        "sha256": "92b6a891ec9e37db853181a493ba37bf3b1a2dc50c503d8236a028db98265ab6"
+      },
+      "target": 280,
+      "exists": true,
+      "raw_rows": 3910,
+      "train_joined": 3910,
+      "prompt_match": 3910,
+      "source_answer_match": 3798,
+      "boxed_checked": 3908,
+      "boxed_match": 3793,
+      "boxed_mismatch": 115,
+      "boxed_appended": 0,
+      "oracle_true": 0,
+      "enabled_pre_sample": 3793,
+      "sampled": 280,
+      "filter_flags": {
+        "final_boxed_mismatch": 115,
+        "source_answer_mismatch": 112,
+        "no_boxed": 2
+      },
+      "sampled_quality_flags": {
+        "prompt_match": 280,
+        "source_answer_match": 280,
+        "final_boxed_match": 280,
+        "multiple_boxed": 208
+      }
+    },
+    "oracle": {
+      "path": {
+        "length": 78,
+        "sha256": "e212f7665e9137f71e2d0658e7f47c1342717f7ef7c286fce37c60ecf129bd9e"
+      },
+      "target": 360,
+      "exists": true,
+      "raw_rows": 9056,
+      "train_joined": 9056,
+      "prompt_match": 9056,
+      "source_answer_match": 9056,
+      "boxed_checked": 8984,
+      "boxed_match": 8480,
+      "boxed_mismatch": 504,
+      "boxed_appended": 0,
+      "oracle_true": 692,
+      "enabled_pre_sample": 7908,
+      "sampled": 360,
+      "filter_flags": {
+        "oracle_true": 692,
+        "final_boxed_mismatch": 504,
+        "no_boxed": 72
+      },
+      "sampled_quality_flags": {
+        "prompt_match": 360,
+        "source_answer_match": 360,
+        "final_boxed_match": 360
+      }
+    },
+    "srivath": {
+      "path": {
+        "length": 95,
+        "sha256": "292b105d1d8b7cc23e5c0ab39e59588cf43422771dd603070c3c3ff3063262c0"
+      },
+      "target": 120,
+      "exists": true,
+      "raw_rows": 9500,
+      "train_joined": 9500,
+      "prompt_match": 9500,
+      "source_answer_match": 9500,
+      "boxed_checked": 0,
+      "boxed_match": 0,
+      "boxed_mismatch": 0,
+      "boxed_appended": 9500,
+      "oracle_true": 0,
+      "enabled_pre_sample": 9500,
+      "sampled": 120,
+      "filter_flags": {},
+      "sampled_quality_flags": {
+        "prompt_match": 120,
+        "source_answer_match": 120,
+        "boxed_appended": 120
+      }
+    },
+    "sybyrr_beta": {
+      "path": {
+        "length": 104,
+        "sha256": "9de1bb31603222ed89d5e73d5a8a11f666394500810f213a5d6411c55608558a"
+      },
+      "target": 240,
+      "exists": true,
+      "raw_rows": 771,
+      "train_joined": 771,
+      "prompt_match": 771,
+      "source_answer_match": 771,
+      "boxed_checked": 771,
+      "boxed_match": 691,
+      "boxed_mismatch": 80,
+      "boxed_appended": 0,
+      "oracle_true": 0,
+      "enabled_pre_sample": 691,
+      "sampled": 240,
+      "filter_flags": {
+        "final_boxed_mismatch": 80
+      },
+      "sampled_quality_flags": {
+        "prompt_match": 240,
+        "source_answer_match": 240,
+        "multiple_boxed": 240,
+        "final_boxed_match": 240
+      }
+    },
+    "tong": {
+      "path": {
+        "length": 123,
+        "sha256": "6b74fd24004f16801b5e97f5e6d53f03339deb48c7df4ef8bf1259c3d01db3ba"
+      },
+      "target": 80,
+      "exists": true,
+      "raw_rows": 1602,
+      "train_joined": 1602,
+      "prompt_match": 1602,
+      "source_answer_match": 1602,
+      "boxed_checked": 1602,
+      "boxed_match": 1364,
+      "boxed_mismatch": 238,
+      "boxed_appended": 0,
+      "oracle_true": 0,
+      "enabled_pre_sample": 1364,
+      "sampled": 80,
+      "filter_flags": {
+        "final_boxed_mismatch": 238
+      },
+      "sampled_quality_flags": {
+        "prompt_match": 80,
+        "source_answer_match": 80,
+        "multiple_boxed": 80,
+        "final_boxed_match": 80
+      }
+    }
+  }
+}

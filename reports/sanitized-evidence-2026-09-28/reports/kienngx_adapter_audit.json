@@ -1,0 +1,93 @@
+{
+  "candidate": {
+    "config": {
+      "base_model_name_or_path": {
+        "length": 42,
+        "sha256": "4b714066e33e62768b1b83a100c96870d4cc336ea9311aa562aed3f8acdc3123"
+      },
+      "r": 32,
+      "lora_alpha": 32,
+      "target_modules": {
+        "count": 9
+      },
+      "has_target_parameters": false,
+      "rank_pattern": {
+        "in_proj": 32
+      },
+      "alpha_pattern": {
+        "in_proj": 32
+      }
+    },
+    "num_tensors": 12010,
+    "categories": {
+      "down_proj.lora_A": 23,
+      "down_proj.lora_B": 23,
+      "experts.down_proj.lora_A": 2944,
+      "experts.down_proj.lora_B": 2944,
+      "experts.up_proj.lora_A": 2944,
+      "experts.up_proj.lora_B": 2944,
+      "in_proj.lora_A": 23,
+      "in_proj.lora_B": 23,
+      "k_proj.lora_A": 6,
+      "k_proj.lora_B": 6,
+      "lm_head.lora_A": 1,
+      "lm_head.lora_B": 1,
+      "o_proj.lora_A": 6,
+      "o_proj.lora_B": 6,
+      "out_proj.lora_A": 23,
+      "out_proj.lora_B": 23,
+      "q_proj.lora_A": 6,
+      "q_proj.lora_B": 6,
+      "up_proj.lora_A": 23,
+      "up_proj.lora_B": 23,
+      "v_proj.lora_A": 6,
+      "v_proj.lora_B": 6
+    },
+    "top_shapes": [
+      [
+        "(32, 2688)",
+        3009
+      ],
+      [
+        "(2688, 32)",
+        2996
+      ],
+      [
+        "(32, 1856)",
+        2944
+      ],
+      [
+        "(1856, 32)",
+        2944
+      ],
+      [
+        "(32, 4096)",
+        29
+      ],
+      [
+        "(10304, 32)",
+        23
+      ],
+      [
+        "(32, 3712)",
+        23
+      ],
+      [
+        "(3712, 32)",
+        23
+      ],
+      [
+        "(256, 32)",
+        12
+      ],
+      [
+        "(4096, 32)",
+        6
+      ],
+      [
+        "(131072, 32)",
+        1
+      ]
+    ]
+  }
+}

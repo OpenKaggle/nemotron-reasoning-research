@@ -1,0 +1,15 @@
+{
+  "rows": 5,
+  "by_source": {
+    "nemo_jsonl:nemo_valid.jsonl": 5
+  },
+  "by_task_type": {
+    "huikang_14class": 5
+  },
+  "quality_flags": {
+    "pretokenized_nemo": 5,
+    "empty_answer": 3
+  },
+  "truncated": 0,
+  "prefix_mismatch": 0
+}

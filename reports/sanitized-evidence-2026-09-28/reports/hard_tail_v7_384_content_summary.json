@@ -1,0 +1,641 @@
+{
+  "audit_rows": 64,
+  "selected_rows": 56,
+  "holdout_rows": 8,
+  "score": {
+    "min": -18.30440902709961,
+    "p01": -18.10071117401123,
+    "p05": -17.903020095825195,
+    "p50": -14.264546394348145,
+    "mean": -13.92431366443634
+  },
+  "selected_by_task_type": {
+    "bit_manipulation": 19,
+    "symbolic_equation": 17,
+    "text_cipher": 9,
+    "numeral_system": 6,
+    "gravity_physics": 3,
+    "unit_conversion": 2
+  },
+  "selected_by_source": {
+    "oracle": 21,
+    "sybyrr_beta": 10,
+    "donald": 7,
+    "bankoglu": 7,
+    "srivath": 6,
+    "llkh0a": 4,
+    "tong": 1
+  },
+  "selected_quality_flags": {
+    "source_answer_match": 56,
+    "prompt_match": 56,
+    "final_boxed_match": 43,
+    "multiple_boxed": 14,
+    "boxed_appended": 13
+  },
+  "selected_worst_tokens": {
+    "count": 23
+  },
+  "worst_selected_rows": [
+    {
+      "id": {
+        "length": 8,
+        "sha256": "3d8f7fc7caf8151b3c5c122d9ec7ecb2f816188e28d5ecb905bc78ca86a0b9a0"
+      },
+      "source": "donald",
+      "task_type": "bit_manipulation",
+      "method": "donald_solvers_bit_manipulation",
+      "score": -17.9810791015625,
+      "mean_logprob": -0.43641018867492676,
+      "worst_token_text": {
+        "length": 4,
+        "sha256": "093f59843b2a3d25162b5212de685c321daf44b0a03fe6e522ee61592913cdf1"
+      },
+      "worst_context": {
+        "length": 42,
+        "sha256": "9d21272daa234c7ab90a7dc86b3347a2bbc1ca01470928cbeb86e6fc016a0a15"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "f285ec427dc2f4bacc12cd90bf2e048498c29097ec1209eace952ec4bbc43ffa"
+      },
+      "source": "donald",
+      "task_type": "bit_manipulation",
+      "method": "donald_solvers_bit_manipulation",
+      "score": -17.97176170349121,
+      "mean_logprob": -0.42906269431114197,
+      "worst_token_text": {
+        "length": 4,
+        "sha256": "093f59843b2a3d25162b5212de685c321daf44b0a03fe6e522ee61592913cdf1"
+      },
+      "worst_context": {
+        "length": 42,
+        "sha256": "9d21272daa234c7ab90a7dc86b3347a2bbc1ca01470928cbeb86e6fc016a0a15"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "8da5ef73b0f47f03874175bfe97b3b92bea6c5fb63ab345b197201ccf147b143"
+      },
+      "source": "donald",
+      "task_type": "bit_manipulation",
+      "method": "donald_solvers_bit_manipulation",
+      "score": -17.906864166259766,
+      "mean_logprob": -0.4441283643245697,
+      "worst_token_text": {
+        "length": 4,
+        "sha256": "093f59843b2a3d25162b5212de685c321daf44b0a03fe6e522ee61592913cdf1"
+      },
+      "worst_context": {
+        "length": 42,
+        "sha256": "9d21272daa234c7ab90a7dc86b3347a2bbc1ca01470928cbeb86e6fc016a0a15"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "4ad2b6833b119f3fa6bbf7ad8a1a824c088194c9d9dd91cb196f2cf5b844785a"
+      },
+      "source": "donald",
+      "task_type": "bit_manipulation",
+      "method": "donald_solvers_bit_manipulation",
+      "score": -17.881237030029297,
+      "mean_logprob": -0.45936715602874756,
+      "worst_token_text": {
+        "length": 4,
+        "sha256": "093f59843b2a3d25162b5212de685c321daf44b0a03fe6e522ee61592913cdf1"
+      },
+      "worst_context": {
+        "length": 42,
+        "sha256": "9d21272daa234c7ab90a7dc86b3347a2bbc1ca01470928cbeb86e6fc016a0a15"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "142c328a371fd56352cc6e2304b9e3d308e945ff9ca1f02269e9770efdc36d6e"
+      },
+      "source": "donald",
+      "task_type": "bit_manipulation",
+      "method": "donald_solvers_bit_manipulation",
+      "score": -17.85591697692871,
+      "mean_logprob": -0.40460216999053955,
+      "worst_token_text": {
+        "length": 4,
+        "sha256": "093f59843b2a3d25162b5212de685c321daf44b0a03fe6e522ee61592913cdf1"
+      },
+      "worst_context": {
+        "length": 42,
+        "sha256": "9d21272daa234c7ab90a7dc86b3347a2bbc1ca01470928cbeb86e6fc016a0a15"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "ea40417283505de89e116080c8eda5d87f06ccd5135ad8441fe33b12956a0e10"
+      },
+      "source": "tong",
+      "task_type": "bit_manipulation",
+      "method": "tong_reasoning_bit_manipulation",
+      "score": -17.850929260253906,
+      "mean_logprob": -0.44579175114631653,
+      "worst_token_text": {
+        "length": 1,
+        "sha256": "d4f85d36757c12f0c6dab57721287f327efbfc46ea8c0f820301067f8627fc0f"
+      },
+      "worst_context": {
+        "length": 39,
+        "sha256": "5c4b7cbdcf7f15a42ba515bb40a9e23a13de9aee7f71be9b4f79d846c70dfa8c"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "6930af8ee0b0d5683d4c0774998663103d58c70523c23345b749ac3e56f545c4"
+      },
+      "source": "sybyrr_beta",
+      "task_type": "symbolic_equation",
+      "method": "sybyrr_symbolic_beta",
+      "score": -17.73516082763672,
+      "mean_logprob": -1.2755428552627563,
+      "worst_token_text": {
+        "length": 5,
+        "sha256": "79f0f1c9f5d2cb0762407dc77b92626bb970c14288c7e789552c7e840bf94b0f"
+      },
+      "worst_context": {
+        "length": 80,
+        "sha256": "ca91a7026e6aa0247b05a95e2d1428d64a13860ab78374dcd545970c51876917"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "1ed2b0fa7bd6d2561caf71221133c407c122e781e59b77edb0ca698cd594ddba"
+      },
+      "source": "donald",
+      "task_type": "bit_manipulation",
+      "method": "donald_solvers_bit_manipulation",
+      "score": -17.72321319580078,
+      "mean_logprob": -0.45454928278923035,
+      "worst_token_text": {
+        "length": 4,
+        "sha256": "093f59843b2a3d25162b5212de685c321daf44b0a03fe6e522ee61592913cdf1"
+      },
+      "worst_context": {
+        "length": 42,
+        "sha256": "9d21272daa234c7ab90a7dc86b3347a2bbc1ca01470928cbeb86e6fc016a0a15"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "2cfbc601b4c1fc1cf72173b3b7ac0b861ff3f39e83dbdc5186fa9c996c2ef9d0"
+      },
+      "source": "donald",
+      "task_type": "bit_manipulation",
+      "method": "donald_solvers_bit_manipulation",
+      "score": -17.00829315185547,
+      "mean_logprob": -0.4282958209514618,
+      "worst_token_text": {
+        "length": 4,
+        "sha256": "093f59843b2a3d25162b5212de685c321daf44b0a03fe6e522ee61592913cdf1"
+      },
+      "worst_context": {
+        "length": 42,
+        "sha256": "9d21272daa234c7ab90a7dc86b3347a2bbc1ca01470928cbeb86e6fc016a0a15"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "426c3339aa55e17ba0fba2c54145519b5191e95c93a1e946ccd3d2a0afdfde09"
+      },
+      "source": "llkh0a",
+      "task_type": "text_cipher",
+      "method": "llkh0a_formatted",
+      "score": -16.855876922607422,
+      "mean_logprob": -0.6783040761947632,
+      "worst_token_text": {
+        "length": 3,
+        "sha256": "dc77de854bdb6015f41db5976b1bf2e9eac8d585466874ed151836f6e18278ae"
+      },
+      "worst_context": {
+        "length": 62,
+        "sha256": "51cd733f3047099965dcf652709c7ffea62c6da634d377bae40cd65cd4541b69"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "ebf082b56eb66b5bf0fa6c19221d19fb0d3549bf55843c65b41f095b729827aa"
+      },
+      "source": "oracle",
+      "task_type": "unit_conversion",
+      "method": "unit_interval",
+      "score": -16.684371948242188,
+      "mean_logprob": -1.5567073822021484,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "62505cc44284f3d6e2b10aa075adc96d11ce353ce7f3192fb7516c8e1d938882"
+      },
+      "worst_context": {
+        "length": 73,
+        "sha256": "4d352e60008c18d1257fe928c909074eaaa41e97435a0ae4129caaca2f19a151"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "28b3056383f8d83d9b29352a30acafd0b1b64d86e3dc89175d9b0492e4688d50"
+      },
+      "source": "oracle",
+      "task_type": "unit_conversion",
+      "method": "unit_interval",
+      "score": -16.58074951171875,
+      "mean_logprob": -1.5446487665176392,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "62505cc44284f3d6e2b10aa075adc96d11ce353ce7f3192fb7516c8e1d938882"
+      },
+      "worst_context": {
+        "length": 73,
+        "sha256": "58e62436765676a4252248d432d85f50fb14242c5be73bd8cdd26431073448ae"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "bf3d4cdebbaac334f7cd642c546932f87f62c603b66bcf1ce44305a330484056"
+      },
+      "source": "sybyrr_beta",
+      "task_type": "symbolic_equation",
+      "method": "sybyrr_symbolic_beta",
+      "score": -16.03971290588379,
+      "mean_logprob": -1.566031813621521,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "257912e2caffa5f886f4f17767d210624356cab573c9ac6cf9c3d3cea0e57d94"
+      },
+      "worst_context": {
+        "length": 92,
+        "sha256": "b2f8f774691546b8533c64bf3f75c546e80c7622f4048baf6019e81a790a3552"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "1ae8efc9d5fca1a6bbb23ac67d4d0ff844e55d1fb968924d15f4005d867c627a"
+      },
+      "source": "sybyrr_beta",
+      "task_type": "symbolic_equation",
+      "method": "sybyrr_symbolic_beta",
+      "score": -15.927717208862305,
+      "mean_logprob": -1.125760793685913,
+      "worst_token_text": {
+        "length": 5,
+        "sha256": "b80a37564fbb3c0753202a1f92d5da8ccfb906b244f2842bba2232cea9883abd"
+      },
+      "worst_context": {
+        "length": 24,
+        "sha256": "22a045f8a6ca23c54d0e2c96fa446f8d9932acdc6dd2eb480144e056ec733511"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "92ba593891a8ec76c24482d6c059428ba175dd8659f1accc44b1614fef00caa9"
+      },
+      "source": "sybyrr_beta",
+      "task_type": "symbolic_equation",
+      "method": "sybyrr_symbolic_beta",
+      "score": -15.819448471069336,
+      "mean_logprob": -1.532604455947876,
+      "worst_token_text": {
+        "length": 4,
+        "sha256": "6d0c7e0a9e1aa8c5cc9ee3180442bcdea2b00f0b5c4978441e172b5cd3cf2432"
+      },
+      "worst_context": {
+        "length": 85,
+        "sha256": "63ed575e6ac49b8d1c401e3f5006a8d56e4de20bfa2a8bf2590e17da9468c71c"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "f819da0a1718403f5659aeff7d4bbd42e13edde8f7fbc9dd61b6f8017d057066"
+      },
+      "source": "oracle",
+      "task_type": "gravity_physics",
+      "method": "gravity_interval",
+      "score": -15.66878604888916,
+      "mean_logprob": -1.2992748022079468,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "62505cc44284f3d6e2b10aa075adc96d11ce353ce7f3192fb7516c8e1d938882"
+      },
+      "worst_context": {
+        "length": 56,
+        "sha256": "f0d53105e743a638e3a23d2d5905347e5e29c8f408de3cc8d9befef60db3829c"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "5ee25cfc72876bc642e9941f6ffdf1899937910631a5a57eaf43d211a464895f"
+      },
+      "source": "oracle",
+      "task_type": "gravity_physics",
+      "method": "gravity_interval",
+      "score": -15.652558326721191,
+      "mean_logprob": -1.2446187734603882,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "62505cc44284f3d6e2b10aa075adc96d11ce353ce7f3192fb7516c8e1d938882"
+      },
+      "worst_context": {
+        "length": 56,
+        "sha256": "f347f19bb99b49652c8b65acc1ea20d93796407dc4b37deef782421d9a4bbbd2"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "cc9a2f42a602b5554471d252ff373b329a7bbb195087cd767dbf29d2fe4d35bf"
+      },
+      "source": "sybyrr_beta",
+      "task_type": "symbolic_equation",
+      "method": "sybyrr_symbolic_beta",
+      "score": -15.522568702697754,
+      "mean_logprob": -1.3979555368423462,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "cade89d01147bc2141dbb33f2633c24a6bc766f97883c8ba731281979cbddebb"
+      },
+      "worst_context": {
+        "length": 63,
+        "sha256": "6776735c6dca6201952c5b9478493a78cbe7ec027b32368bdfbc480f624559dd"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "a132b8c590900708f3a15520827a942168f93a929a443ac82c4e9d5792e83861"
+      },
+      "source": "sybyrr_beta",
+      "task_type": "symbolic_equation",
+      "method": "sybyrr_symbolic_beta",
+      "score": -15.519570350646973,
+      "mean_logprob": -1.5431698560714722,
+      "worst_token_text": {
+        "length": 4,
+        "sha256": "6d0c7e0a9e1aa8c5cc9ee3180442bcdea2b00f0b5c4978441e172b5cd3cf2432"
+      },
+      "worst_context": {
+        "length": 99,
+        "sha256": "b2ef878ed18f243aa6acd770881b9a1cb4aa2606740b56a54a17c38ed145a0a5"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "ef1b80d7c29dae07dce23970d18f1aaf4e824e8285979364ecc812a27d192b8e"
+      },
+      "source": "llkh0a",
+      "task_type": "text_cipher",
+      "method": "llkh0a_formatted",
+      "score": -15.498939514160156,
+      "mean_logprob": -0.1920241415500641,
+      "worst_token_text": {
+        "length": 3,
+        "sha256": "947a501ab5edae4e7212a15afc4cd19f5c91814571738a98d3e47d22a265207f"
+      },
+      "worst_context": {
+        "length": 61,
+        "sha256": "58c26fb33c445ad6165181d95021edefe305d169de26e294511434e353431229"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "1b2072356d6071e536e8433e565ccc16521e76daf94c2765dd07e04670cb1dac"
+      },
+      "source": "llkh0a",
+      "task_type": "text_cipher",
+      "method": "llkh0a_formatted",
+      "score": -15.380387306213379,
+      "mean_logprob": -0.7444444298744202,
+      "worst_token_text": {
+        "length": 5,
+        "sha256": "c67b4c1fce7cc6b42038f4463de7c4093b3179a66f8340dc76c7ac97e352802b"
+      },
+      "worst_context": {
+        "length": 39,
+        "sha256": "4e2544584a0e5d1277fae33de783a58566d90977062918aba23216d92d6f4b2f"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "97834269684da8d498cc81b945ae2fd52dfeae741b8795b143d198c5df0a6e4d"
+      },
+      "source": "sybyrr_beta",
+      "task_type": "symbolic_equation",
+      "method": "sybyrr_symbolic_beta",
+      "score": -15.22034740447998,
+      "mean_logprob": -1.4836671352386475,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "cade89d01147bc2141dbb33f2633c24a6bc766f97883c8ba731281979cbddebb"
+      },
+      "worst_context": {
+        "length": 62,
+        "sha256": "2e8d66396784bda8d10d29d5c39df129ecd1ed3fec681bb2e139c4a18bff7f9f"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "25ec3d0311e1ab2d4ddd4c1692bf1154135102f2db44262d11ace52e75e2a223"
+      },
+      "source": "sybyrr_beta",
+      "task_type": "symbolic_equation",
+      "method": "sybyrr_symbolic_beta",
+      "score": -14.95562744140625,
+      "mean_logprob": -1.633357286453247,
+      "worst_token_text": {
+        "length": 4,
+        "sha256": "6d0c7e0a9e1aa8c5cc9ee3180442bcdea2b00f0b5c4978441e172b5cd3cf2432"
+      },
+      "worst_context": {
+        "length": 85,
+        "sha256": "63ed575e6ac49b8d1c401e3f5006a8d56e4de20bfa2a8bf2590e17da9468c71c"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "232cd1e662e88d4cca6a6ae2d9a146383332c1a40d87205a1f1f653ac4cdede5"
+      },
+      "source": "sybyrr_beta",
+      "task_type": "symbolic_equation",
+      "method": "sybyrr_symbolic_beta",
+      "score": -14.872196197509766,
+      "mean_logprob": -1.300042986869812,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "cade89d01147bc2141dbb33f2633c24a6bc766f97883c8ba731281979cbddebb"
+      },
+      "worst_context": {
+        "length": 61,
+        "sha256": "5bfdbacc64b3630dbc1264552aa4684b046d7cc9b0ef1c59a91689227302d1df"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "732c42d1fddd52a9660b169ec8cc78990b266ebc88957492315a3d3b97823f04"
+      },
+      "source": "bankoglu",
+      "task_type": "bit_manipulation",
+      "method": "bankoglu_hard_families",
+      "score": -14.87155532836914,
+      "mean_logprob": -0.7635791301727295,
+      "worst_token_text": {
+        "length": 7,
+        "sha256": "7949c0b6c361616b990941461ebd97abdeab4495d8fd1b3a00d187df793c833a"
+      },
+      "worst_context": {
+        "length": 68,
+        "sha256": "fa48be820546f836b0de00fd764f10857a585bc40c72530f63aa1d848bca9899"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "cd065ae7b6946e21b1d518bc50c37a607babd58a46d3c0969cba4290dd2d94b8"
+      },
+      "source": "sybyrr_beta",
+      "task_type": "symbolic_equation",
+      "method": "sybyrr_symbolic_beta",
+      "score": -14.619604110717773,
+      "mean_logprob": -1.2957124710083008,
+      "worst_token_text": {
+        "length": 8,
+        "sha256": "cade89d01147bc2141dbb33f2633c24a6bc766f97883c8ba731281979cbddebb"
+      },
+      "worst_context": {
+        "length": 60,
+        "sha256": "d4575dca132f5ca08025c5f65e00a074472bc7d691dafd6162f882f29311667a"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "0064003a0a7d7f7341094c60ff63d2257070f61a7647fdefae9b4921375d6299"
+      },
+      "source": "oracle",
+      "task_type": "symbolic_equation",
+      "method": "equation_numeric_deduce",
+      "score": -14.278203010559082,
+      "mean_logprob": -3.0068278312683105,
+      "worst_token_text": {
+        "length": 2,
+        "sha256": "296d71a7f66e75b751c597094536329dcf2cf484f83e475d91f7aea1ff4c9738"
+      },
+      "worst_context": {
+        "length": 49,
+        "sha256": "e85c8d6273f8a5d3edc7fdc6d7b64c91c44f0f223e124d9fd4805ca8d7dab319"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "193d74a8bc573c0484588e7aac3e7a2ba67c566994501a59faab059db5ea53b4"
+      },
+      "source": "oracle",
+      "task_type": "symbolic_equation",
+      "method": "equation_numeric_deduce",
+      "score": -14.272710800170898,
+      "mean_logprob": -2.754941463470459,
+      "worst_token_text": {
+        "length": 6,
+        "sha256": "a424e33d90931d1ed22f2af37a3f3491a5c9de0dfae079f6f3ff4edf0309e07f"
+      },
+      "worst_context": {
+        "length": 61,
+        "sha256": "5162be0708e7536dd206e1a274da5a0eb11367b8b157988f63a57c4d5d1689ed"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "fd6df601b7741786ed5f25366185df5b4b6e19c7fbb5a943d5a0b102875b8c49"
+      },
+      "source": "llkh0a",
+      "task_type": "symbolic_equation",
+      "method": "llkh0a_formatted",
+      "score": -14.25638198852539,
+      "mean_logprob": -0.8292081952095032,
+      "worst_token_text": {
+        "length": 5,
+        "sha256": "b80a37564fbb3c0753202a1f92d5da8ccfb906b244f2842bba2232cea9883abd"
+      },
+      "worst_context": {
+        "length": 24,
+        "sha256": "64e8f5b7aaa694ac4e5d2f4d64b030fc6e04f69ee8466a98d5b82b1dfd44eff8"
+      },
+      "manifest_match": "strict"
+    },
+    {
+      "id": {
+        "length": 8,
+        "sha256": "6204a5c22bad08a3f34a7b3d71ceceb54424443eb0e198391020c78aece4501f"
+      },
+      "source": "bankoglu",
+      "task_type": "bit_manipulation",
+      "method": "bankoglu_hard_families",
+      "score": -14.194573402404785,
+      "mean_logprob": -0.5837988257408142,
+      "worst_token_text": {
+        "length": 1,
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      },
+      "worst_context": {
+        "length": 70,
+        "sha256": "1606feac9ae0016b82ad5c0b89c880b400fc1e79094eca0ba7a5b5ef39792e08"
+      },
+      "manifest_match": "strict"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+row_index,source,task_type,method,quality_flags,truncated,prefix_mismatch,mean_logprob,min_logprob
+1,<text:27>,<text:15>,<text:18>,<text:30>,<text:5>,<text:5>,,
+2,<text:27>,<text:15>,<text:18>,<text:30>,<text:4>,<text:5>,,
+3,<text:27>,<text:15>,<text:18>,<text:30>,<text:4>,<text:5>,,
+4,<text:27>,<text:15>,<text:18>,<text:17>,<text:4>,<text:5>,,
+5,<text:27>,<text:15>,<text:18>,<text:17>,<text:4>,<text:5>,,

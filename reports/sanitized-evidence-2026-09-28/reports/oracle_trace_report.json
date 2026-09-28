@@ -1,0 +1,63 @@
+{
+  "trace_path": {
+    "length": 78,
+    "sha256": "e212f7665e9137f71e2d0658e7f47c1342717f7ef7c286fce37c60ecf129bd9e"
+  },
+  "base_correct": 8364,
+  "oracle_correct": 9056,
+  "total": 9500,
+  "base_accuracy": 0.880421052631579,
+  "oracle_accuracy": 0.9532631578947368,
+  "by_family": {
+    "bit_manipulation": {
+      "total": 1602,
+      "base_correct": 1440,
+      "oracle_correct": 1440,
+      "base_accuracy": 0.898876404494382,
+      "oracle_accuracy": 0.898876404494382,
+      "methods": {}
+    },
+    "text_cipher": {
+      "total": 1576,
+      "base_correct": 1576,
+      "oracle_correct": 1576,
+      "base_accuracy": 1.0,
+      "oracle_accuracy": 1.0,
+      "methods": {}
+    },
+    "numeral_system": {
+      "total": 1576,
+      "base_correct": 1576,
+      "oracle_correct": 1576,
+      "base_accuracy": 1.0,
+      "oracle_accuracy": 1.0,
+      "methods": {}
+    },
+    "unit_conversion": {
+      "total": 1594,
+      "base_correct": 1594,
+      "oracle_correct": 1594,
+      "base_accuracy": 1.0,
+      "oracle_accuracy": 1.0,
+      "methods": {}
+    },
+    "gravity_physics": {
+      "total": 1597,
+      "base_correct": 1597,
+      "oracle_correct": 1597,
+      "base_accuracy": 1.0,
+      "oracle_accuracy": 1.0,
+      "methods": {}
+    },
+    "symbolic_equation": {
+      "total": 1555,
+      "base_correct": 581,
+      "oracle_correct": 1273,
+      "base_accuracy": 0.37363344051446945,
+      "oracle_accuracy": 0.8186495176848875,
+      "methods": {
+        "cryptarithm_oracle": 692
+      }
+    }
+  }
+}
