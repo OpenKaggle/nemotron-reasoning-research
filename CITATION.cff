@@ -5,7 +5,7 @@ message: >-
 title: NVIDIA Nemotron Competition Research
 type: software
 authors:
-  - name: OpenKaggle contributors
+  - name: Jah-yee
 repository-code: https://github.com/OpenKaggle/nemotron-reasoning-research
 url: https://github.com/OpenKaggle/nemotron-reasoning-research/tree/snapshot-2026-09
 version: snapshot-2026-09
