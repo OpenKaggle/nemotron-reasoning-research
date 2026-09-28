@@ -26,7 +26,11 @@ families so they cannot be recommitted accidentally.
 This source-only repository still does not track model binaries. Eligible
 first-party checkpoints, adapters, compiled model artifacts and submission
 bundles are published separately with source revision, provenance and checksum
-records in the linked artifact dataset described by `ARTIFACTS.md`.
+records in the linked artifact dataset described by `ARTIFACTS.md`. Kaggle's
+current public ingest expands the primary ZIP into
+`oracle_sft_r32_inproj_lr5e_6_s40_v1.submission/adapter_model.safetensors` and
+`adapter_config.json`; readers should use those public paths and the dataset's
+SHA-256 manifest.
 
 ## History cleanup
 

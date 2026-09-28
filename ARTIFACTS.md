@@ -17,8 +17,9 @@ For every artifact considered for a future release, record:
 Only a separately reviewed, authorized artifact may be placed on an external
 host. The first public artifact release is the [OpenKaggle Nemotron Model and
 Submission Artifacts](https://www.kaggle.com/datasets/jahyee/openkaggle-nemotron-model-submission-artifacts)
-dataset: it holds one first-party LoRA submission archive and compact patches
-for user-authored sweep changes, with manifests and checksums. It deliberately
+dataset: it holds one first-party LoRA submission package (Kaggle expands the
+uploaded ZIP into `oracle_sft_r32_inproj_lr5e_6_s40_v1.submission/`) and compact
+patches for user-authored sweep changes, with manifests and checksums. It deliberately
 does not mirror base-model bytes, organizer data, or complete third-party
 adapters.
 
