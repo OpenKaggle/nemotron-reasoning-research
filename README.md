@@ -1,5 +1,7 @@
 # [2026-06] NVIDIA Nemotron Competition Research Snapshot
 
+> **Status: Final anchor 0.86 (Kienngx), line closed 2026-09.**
+
 This is the source-only public record of research around the
 [NVIDIA Nemotron Model Reasoning Challenge](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge).
 It retains reviewable scripts, dependency information, and compact
