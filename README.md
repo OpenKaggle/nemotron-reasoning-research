@@ -2,6 +2,8 @@
 
 > **Status: Final anchor 0.86 (Kienngx), line closed 2026-09.**
 
+**Publication gate: 2026-06-15T23:59Z** (= nvidia-nemotron-model-reasoning-challenge submission end; already elapsed — repo is public-eligible; visibility decision is separate)
+
 This is the source-only public record of research around the
 [NVIDIA Nemotron Model Reasoning Challenge](https://www.kaggle.com/competitions/nvidia-nemotron-model-reasoning-challenge).
 It retains reviewable scripts, dependency information, and compact
